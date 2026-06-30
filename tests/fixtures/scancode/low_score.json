@@ -1,0 +1,38 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.5.0",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "license_detections": [],
+  "files": [
+    {
+      "path": "mylib/LICENSE",
+      "type": "file",
+      "detected_license_expression": "bsd-new",
+      "detected_license_expression_spdx": "BSD-3-Clause",
+      "license_detections": [
+        {
+          "license_expression": "bsd-new",
+          "license_expression_spdx": "BSD-3-Clause",
+          "identifier": "bsd_new-1111-2222-3333-444444444444",
+          "matches": [
+            {
+              "license_expression": "bsd-new",
+              "spdx_license_expression": null,
+              "score": 41.5,
+              "rule_identifier": "bsd-new_partial_12.RULE",
+              "rule_url": null
+            }
+          ]
+        }
+      ],
+      "copyrights": [],
+      "holders": [],
+      "scan_errors": []
+    }
+  ]
+}

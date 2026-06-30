@@ -1,0 +1,23 @@
+# scratch output
+out/
+out2/
+
+# python / venv / build
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# scratch / temp
+.tmp/
+
+# agent / editor scaffolding
+.codex/
+.agents/
+.claude/
+
+# os
+.DS_Store

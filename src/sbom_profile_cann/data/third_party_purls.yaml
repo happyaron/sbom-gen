@@ -1,0 +1,24 @@
+# Curated upstream PURL coordinates for well-known third-party C++ components.
+#
+# CANN fetches these from mirrors (the cann-3rd OBS bucket, gitcode
+# cann-src-third-party) whose URLs hide the canonical upstream org, so the true
+# coordinates can't be derived from the download URL — they are curated here.
+#
+# Format: `canonical-component-name: <purl WITHOUT version>` (the component's
+# resolved version is appended at emit). Matched on the canonical name OR any
+# recorded alias. Use ONLY registered PURL types (github, gitlab, ...) so the id
+# is vuln-matchable; a component NOT listed here falls back to
+# `pkg:generic/<name>?download_url=…` (mirror) or, for first-party, `?vcs_url=…`.
+#
+# Keep entries to coordinates you are CONFIDENT about — a wrong coordinate is a
+# false upstream identity. securec/libboundscheck (gitcode/gitee — not a
+# registered purl type) and mockcpp (uncertain home) are deliberately omitted and
+# fall back to pkg:generic.
+
+protobuf:    pkg:github/protocolbuffers/protobuf
+protoc:      pkg:github/protocolbuffers/protobuf   # the protobuf compiler — same upstream
+eigen:       pkg:gitlab/libeigen/eigen
+abseil-cpp:  pkg:github/abseil/abseil-cpp
+gtest:       pkg:github/google/googletest
+json:        pkg:github/nlohmann/json
+boost:       pkg:github/boostorg/boost

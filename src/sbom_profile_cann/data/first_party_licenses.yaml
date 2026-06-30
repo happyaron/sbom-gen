@@ -1,0 +1,66 @@
+# First-party CANN components and their declared license.
+#
+# Every KEY here is a first-party CANN component: membership drives
+# component_provenance() => "first-party" (matched on canonical name or alias).
+# The VALUE is its declared license:
+#   * a license id  -> asserted by dependency_license_default() as a DEFAULT
+#     (provenance source=profile.dependency_license_default; the emitted component
+#     carries sbomgen:completeness:license=profile-default). Genuine Huawei CANN
+#     packages / internal libraries ship under the CANN Open Software License.
+#   * null (~)      -> first-party but license NOT asserted (closed-source /
+#     proprietary). dependency_license_default() returns None for these, so the
+#     license stays NOASSERTION (derived from its own evidence if any), while the
+#     component is still correctly marked first-party. Provenance and license are
+#     orthogonal: first-party (who made it) does not imply open-source.
+#
+# Deliberately NOT here at all (genuine THIRD-PARTY — must derive their own
+# license AND classify third-party):
+#   * securec / libboundscheck  -> openEuler third-party; license (MulanPSL-2.0) is
+#     vendored in known_licenses.yaml (the Third_Party Notice is only an additional,
+#     may-disappear source). No purl/supplier: its mirror is on gitcode/gitee (not
+#     a registered purl type), so it is omitted from third_party_purls.yaml too.
+#   * torch-npu                 -> published BSD-3-Clause (resolved via network)
+#   * eigen/protobuf/gtest/json/abseil-cpp/... -> third-party (license in
+#     known_licenses.yaml; supplier from the third_party_purls.yaml upstream org)
+#   * Python deps               -> resolved via --network on / the known-license map
+
+# CANN package dependencies (version.cmake set_cann_*_dependencies)
+opbase:       LicenseRef-CANN-Open-Software-License-2.0
+runtime:      LicenseRef-CANN-Open-Software-License-2.0
+metadef:      LicenseRef-CANN-Open-Software-License-2.0
+ge-compiler:  LicenseRef-CANN-Open-Software-License-2.0
+ge-executor:  LicenseRef-CANN-Open-Software-License-2.0
+asc-devkit:   LicenseRef-CANN-Open-Software-License-2.0
+asc-tools:    LicenseRef-CANN-Open-Software-License-2.0
+ops-legacy:   LicenseRef-CANN-Open-Software-License-2.0
+ops_legacy:   LicenseRef-CANN-Open-Software-License-2.0
+
+# Closed-source first-party CANN tool: first-party provenance, but NOT open-sourced
+# so its license is left unasserted (null) -> stays NOASSERTION, never the CANN
+# Open License. version.cmake declares it set_cann_build/run_dependencies(>=8.5).
+bisheng-compiler: ~
+
+# CANN ops packages (appear as cross-references between ops repos)
+ops_math:     LicenseRef-CANN-Open-Software-License-2.0
+ops_nn:       LicenseRef-CANN-Open-Software-License-2.0
+
+# CANN-internal libraries / link symbols (no source in the analyzed repo)
+ascendcl:            LicenseRef-CANN-Open-Software-License-2.0
+graph:               LicenseRef-CANN-Open-Software-License-2.0
+graph_base:          LicenseRef-CANN-Open-Software-License-2.0
+exe_graph:           LicenseRef-CANN-Open-Software-License-2.0
+opapi:               LicenseRef-CANN-Open-Software-License-2.0
+register:            LicenseRef-CANN-Open-Software-License-2.0
+rt2_registry_static: LicenseRef-CANN-Open-Software-License-2.0
+mmpa:                LicenseRef-CANN-Open-Software-License-2.0
+dlog:                LicenseRef-CANN-Open-Software-License-2.0
+platform:            LicenseRef-CANN-Open-Software-License-2.0
+nnopbase:            LicenseRef-CANN-Open-Software-License-2.0
+aicpu:               LicenseRef-CANN-Open-Software-License-2.0
+tiling_api:          LicenseRef-CANN-Open-Software-License-2.0
+tikicpulib:          LicenseRef-CANN-Open-Software-License-2.0
+
+# CANN build/test infrastructure
+cann_device:  LicenseRef-CANN-Open-Software-License-2.0
+cann-cmake:   LicenseRef-CANN-Open-Software-License-2.0
+ops_test_kit: LicenseRef-CANN-Open-Software-License-2.0

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbom-gen"
+version = "0.1.0"
+description = "Standalone SBOM generator for C++/CMake + Python repositories (generic core + repo profile plugins)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "CANN SBOM tooling" }]
+keywords = ["sbom", "cyclonedx", "spdx", "cmake", "python", "dependencies"]
+
+dependencies = [
+    "cyclonedx-python-lib[json-validation]",
+    "spdx-tools",
+    "packaging",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+sbom = "sbom.cli:main"
+
+[project.entry-points."sbom.profiles"]
+cann = "sbom_profile_cann:CannProfile"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sbom = ["data/*.yaml", "data/*.json"]
+sbom_profile_cann = ["data/*.yaml", "data/*.json"]

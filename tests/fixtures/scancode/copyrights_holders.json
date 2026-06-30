@@ -1,0 +1,107 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.5.0",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "license_detections": [],
+  "files": [
+    {
+      "path": "mit_lib",
+      "type": "directory",
+      "detected_license_expression": null,
+      "detected_license_expression_spdx": null,
+      "license_detections": [],
+      "copyrights": [],
+      "holders": [],
+      "scan_errors": []
+    },
+    {
+      "path": "mit_lib/LICENSE",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "identifier": "mit-aaaa-bbbb-cccc-eeeeeeeeeeee",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "spdx_license_expression": null,
+              "score": 100.0,
+              "rule_identifier": "mit_71.RULE",
+              "rule_url": null
+            }
+          ]
+        }
+      ],
+      "copyrights": [
+        {
+          "copyright": "Copyright (c) 2020 Alice Example",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "copyright": "Copyright (c) 2021 Bob Example",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "holders": [
+        {
+          "holder": "Alice Example",
+          "start_line": 1,
+          "end_line": 1
+        },
+        {
+          "holder": "Bob Example",
+          "start_line": 2,
+          "end_line": 2
+        }
+      ],
+      "scan_errors": []
+    },
+    {
+      "path": "mit_lib/src.c",
+      "type": "file",
+      "detected_license_expression": "mit",
+      "detected_license_expression_spdx": "MIT",
+      "license_detections": [
+        {
+          "license_expression": "mit",
+          "license_expression_spdx": "MIT",
+          "identifier": "mit-ffff-0000-1111-222222222222",
+          "matches": [
+            {
+              "license_expression": "mit",
+              "spdx_license_expression": null,
+              "score": 80.0,
+              "rule_identifier": "mit_header_3.RULE",
+              "rule_url": null
+            }
+          ]
+        }
+      ],
+      "copyrights": [
+        {
+          "copyright": "Copyright (c) 2020 Alice Example",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "holders": [
+        {
+          "holder": "Alice Example",
+          "start_line": 1,
+          "end_line": 1
+        }
+      ],
+      "scan_errors": []
+    }
+  ]
+}

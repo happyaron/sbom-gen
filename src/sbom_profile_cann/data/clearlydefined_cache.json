@@ -1,0 +1,1278 @@
+{
+  "entries": {
+    "github:abseil/abseil-cpp": {
+      "coordinates": "git/github/abseil/abseil-cpp/fb3621f4f897824c0dbe0615fa94543df6192f30",
+      "copyright": "Copyright 2016 Google Inc.; Copyright 2017 Google Inc.; Copyright 2017 The Abseil Authors; Copyright 2018 The Abseil Authors; Copyright 2019 The Abseil Authors",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/abseil/abseil-cpp/tree/fb3621f4f897824c0dbe0615fa94543df6192f30",
+      "supplier": "abseil"
+    },
+    "github:google/googletest": {
+      "coordinates": "git/github/google/googletest/f8d7d77c06936315286eb55f8de22cd23c188571",
+      "copyright": "Copyright 2005 Google Inc.; Copyright 2008 Google Inc.; Copyright 2009 Google Inc.; Copyright 2010 Google Inc.; Copyright 2015 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/google/googletest/tree/f8d7d77c06936315286eb55f8de22cd23c188571",
+      "supplier": "google"
+    },
+    "github:nlohmann/json": {
+      "coordinates": "git/github/nlohmann/json/9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03",
+      "copyright": "Copyright 2003-2022, LLVM Project; Copyright 2015-2017 Niels Lohmann; Copyright 2018 The Abseil Authors; Copyright (c) 2009 Florian Loitsch; Copyright 2016-2021 Viktor Kirilov",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/nlohmann/json/tree/9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03",
+      "supplier": "nlohmann"
+    },
+    "github:protocolbuffers/protobuf": {
+      "coordinates": "git/github/protocolbuffers/protobuf/fde7cf7358ec7cd69e8db9be4f1fa6a5c431386a",
+      "copyright": "Copyright (c) 2016 Google; Copyright 2005 Google Inc.; Copyright 2007 Google Inc.; Copyright 2008 Google Inc.; Copyright 2009 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "LicenseRef-scancode-protobuf",
+      "source": "https://github.com/protocolbuffers/protobuf/tree/fde7cf7358ec7cd69e8db9be4f1fa6a5c431386a",
+      "supplier": "protocolbuffers"
+    },
+    "gitlab:libeigen/eigen": {
+      "coordinates": "git/gitlab/libeigen/eigen/549bf8c75b6aae071cde2f28aa48f16ee3ae60b0",
+      "fetched": "2026-06-28",
+      "source": "https://gitlab.com/libeigen/eigen/-/tree/549bf8c75b6aae071cde2f28aa48f16ee3ae60b0",
+      "supplier": "libeigen"
+    },
+    "pypi:absl-py": {
+      "coordinates": "pypi/pypi/-/absl-py/2.4.0",
+      "copyright": "Copyright 2017 The Abseil Authors; Copyright 2018 The Abseil Authors; Copyright 2021 The Abseil Authors",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/absl-py/2.4.0/"
+    },
+    "pypi:accelerate": {
+      "coordinates": "pypi/pypi/-/accelerate/0.20.3",
+      "copyright": "Copyright 2021 The HuggingFace Team; Copyright 2022 The HuggingFace Team; Copyright 2023 The HuggingFace Team; Copyright 2022 The HuggingFace Inc. team; Copyright 2022 The HuggingFace Team and Brian Chao",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/accelerate/tree/47b9ac10710dd51e6e4e1304223d6dc543c47a54",
+      "supplier": "huggingface"
+    },
+    "pypi:asttokens": {
+      "coordinates": "pypi/pypi/-/asttokens/2.0.4",
+      "copyright": "Copyright 2016 Grist Labs, Inc.; Copyright 2016, Grist Labs, Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/gristlabs/asttokens/tree/2529f17a7115d8e13a6284897d24b2fd1dad8c55",
+      "supplier": "gristlabs"
+    },
+    "pypi:astunparse": {
+      "coordinates": "pypi/pypi/-/astunparse/1.6.3",
+      "copyright": "Copyright (c) 2014, Simon Percivall; Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Python Software Foundation",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause AND Python-2.0",
+      "source": "https://pypi.org/project/astunparse/1.6.3/"
+    },
+    "pypi:attr": {
+      "coordinates": "pypi/pypi/-/attr/0.3.2",
+      "copyright": "Copyright (c) 2013-2017 Denis Ryzhkov denisr@denisr.com; Copyright (c) 2013-2022 by Denis Ryzhkov <denisr@denisr.com>",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/attr/0.3.2/"
+    },
+    "pypi:attrdict": {
+      "coordinates": "pypi/pypi/-/attrdict/2.0.1",
+      "copyright": "Copyright (c) 2013 Brendan Curran-Johnson",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/attrdict/2.0.1/"
+    },
+    "pypi:attrs": {
+      "coordinates": "pypi/pypi/-/attrs/26.1.0",
+      "copyright": "Copyright (c) 2015 Hynek Schlawack",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/attrs/26.1.0/"
+    },
+    "pypi:av": {
+      "coordinates": "pypi/pypi/-/av/13.0.0",
+      "copyright": "copyright 2024, The PyAV Team",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://github.com/PyAV-Org/PyAV/tree/6b20f97fec0735034fe243fddaec7bd5a8cb945d",
+      "supplier": "PyAV-Org"
+    },
+    "pypi:bitsandbytes": {
+      "coordinates": "pypi/pypi/-/bitsandbytes/0.41.3",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/bitsandbytes/0.41.3/"
+    },
+    "pypi:blake3": {
+      "coordinates": "pypi/pypi/-/blake3/1.0.9",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/blake3/1.0.9/"
+    },
+    "pypi:brotli": {
+      "coordinates": "pypi/pypi/-/brotli/1.1.0",
+      "copyright": "Copyright 2010 Google Inc.; Copyright 2013 Google Inc.; Copyright 2014 Google Inc.; Copyright 2015 Google Inc.; Copyright 2016 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/google/brotli/tree/ed738e842d2fbdf2d6459e39267a633c4a9b2f5d",
+      "supplier": "google"
+    },
+    "pypi:build": {
+      "coordinates": "pypi/pypi/-/build/1.5.0",
+      "copyright": "copyright 2020, Filipe Lains; Copyright (c) 2019 Filipe Lains <filipe.lains@gmail.com>",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/build/1.5.0/"
+    },
+    "pypi:c-mteb": {
+      "coordinates": "pypi/pypi/-/c-mteb/1.1.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/c-mteb/1.1.1/"
+    },
+    "pypi:certifi": {
+      "coordinates": "pypi/pypi/-/certifi/2024.2.2",
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0",
+      "source": "https://pypi.org/project/certifi/2024.2.2/"
+    },
+    "pypi:charset-normalizer": {
+      "coordinates": "pypi/pypi/-/charset-normalizer/3.3.2",
+      "copyright": "copyright 2023, Ahmed TAHRI; Copyright (c) 2023 Ahmed TAHRI; Copyright (c) 2019 TAHRI Ahmed R.; copyright (c) 2021 by Ahmed TAHRI",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/charset-normalizer/3.3.2/"
+    },
+    "pypi:cloudpickle": {
+      "coordinates": "pypi/pypi/-/cloudpickle/3.1.2",
+      "copyright": "Copyright (c) 2015, Cloudpickle contributors; Copyright (c) 2009 PiCloud, Inc. http://www.picloud.com; Copyright (c) 2012, Regents of the University of California; Copyright (c) 2012-now, CloudPickle developers and contributors; Copyright (c) 2009 PiCloud, Inc. <https://web.archive.org/web/20140626004012/http://www.picloud.com/>",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/cloudpipe/cloudpickle/tree/7576fff24b9769432f76cc6d2c01282583ee87a9",
+      "supplier": "cloudpipe"
+    },
+    "pypi:cmake": {
+      "coordinates": "pypi/pypi/-/cmake/4.3.4",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/cmake/4.3.4/"
+    },
+    "pypi:cmarkgfm": {
+      "coordinates": "pypi/pypi/-/cmarkgfm/2025.10.22",
+      "copyright": "Copyright 2013 Karl Dubost; Copyright (c) 2013 Karl Dubost; Copyright (c) 2012 Vicent Marti; Copyright (c) 2018 Thea Flowers; Copyright (c) 2014, John MacFarlane",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/cmarkgfm/2025.10.22/"
+    },
+    "pypi:codetiming": {
+      "coordinates": "pypi/pypi/-/codetiming/1.4.0",
+      "copyright": "Copyright (c) 2019 Real Python",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/codetiming/1.4.0/"
+    },
+    "pypi:common": {
+      "coordinates": "pypi/pypi/-/common/0.1.2",
+      "copyright": "Copyright (c) 2016 Marcel Hellkamp",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/common/0.1.2/"
+    },
+    "pypi:compressed-tensors": {
+      "coordinates": "pypi/pypi/-/compressed-tensors/0.9.1",
+      "copyright": "Copyright (c) 2021 - present / Neuralmagic, Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/neuralmagic/compressed-tensors/tree/fc711ca3ceaf884b98038718bc3b3bdff30336d0",
+      "supplier": "neuralmagic"
+    },
+    "pypi:coverage": {
+      "coordinates": "pypi/pypi/-/coverage/7.14.3",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/coverage/7.14.3/"
+    },
+    "pypi:datasets": {
+      "coordinates": "pypi/pypi/-/datasets/2.18.0",
+      "copyright": "Copyright 2020 HuggingFace Inc.; Copyright 2020 Optuna, Hugging Face; Copyright 2023 The HuggingFace Team; Copyright 2020 The HuggingFace Authors; Copyright 2020 The TensorFlow Datasets",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/datasets/tree/ca8409a8bec4508255b9c3e808d0751eb1005260",
+      "supplier": "huggingface"
+    },
+    "pypi:ddt": {
+      "coordinates": "pypi/pypi/-/ddt/1.7.2",
+      "copyright": "Copyright 2012-2015 Carles Barrobes and DDT contributors; Copyright (c) 2015 Carles Barrobes and additional contributors",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/datadriventests/ddt/tree/5b4fec6152fd6be880c42f01213685a1a835720a",
+      "supplier": "datadriventests"
+    },
+    "pypi:debugpy": {
+      "coordinates": "pypi/pypi/-/debugpy/1.8.1",
+      "copyright": "Copyright (c) 2016 Red Hat; Copyright (c) 2012, Ben Hoyt; Copyright (c) 2009-2014, Mario Vilas; Copyright (c) 2009-2012 Pierre Raybaut; Copyright (c) 1999-2002 by Fredrik Lundh",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/debugpy/1.8.1/"
+    },
+    "pypi:decorator": {
+      "coordinates": "pypi/pypi/-/decorator/5.3.1",
+      "copyright": "copyright 2005-2020, Michele Simionato; Copyright (c) 2005-2025, Michele Simionato; Copyright (c) 2005-2026, Michele Simionato",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/decorator/5.3.1/"
+    },
+    "pypi:deprecated": {
+      "coordinates": "pypi/pypi/-/deprecated/1.3.1",
+      "copyright": "Copyright (c) 2017 Laurent LAPORTE; copyright 2017, Marcos CARDOSO & Laurent LAPORTE",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/laurent-laporte-pro/deprecated/tree/d135459ef6c1fdd005f28c6e2cf7915e8fb8d0e1",
+      "supplier": "laurent-laporte-pro"
+    },
+    "pypi:depyf": {
+      "coordinates": "pypi/pypi/-/depyf/0.18.0",
+      "copyright": "Copyright (c) 2023 Tsinghua University, Machine Learning Group (THUML)",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/thuml/depyf/tree/dab831108a752d1facc00acdd6d4243891845c37",
+      "supplier": "thuml"
+    },
+    "pypi:dill": {
+      "coordinates": "pypi/pypi/-/dill/0.3.8",
+      "copyright": "Copyright (c) 2011 by science+computing; Copyright (c) 2008-2010 Marius Gedminas <marius@pov.lt>; Copyright (c) 2009 PiCloud, Inc. <http://www.picloud.com>; Copyright (c) 2010 Stefano Rivera <stefano@rivera.za.net>; Copyright (c) 2004-2016 California Institute of Technology",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://github.com/uqfoundation/dill/tree/a0a8e86976708d0436eec5c8f7d25329da727cb5",
+      "supplier": "uqfoundation"
+    },
+    "pypi:easydict": {
+      "coordinates": "pypi/pypi/-/easydict/1.9",
+      "copyright": "Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>",
+      "fetched": "2026-06-28",
+      "license": "LGPL-3.0 AND LGPL-3.0-only",
+      "source": "https://github.com/makinacorpus/easydict/tree/9d570ecc2799d8df16c640100c89a028dabc03a7",
+      "supplier": "makinacorpus"
+    },
+    "pypi:einops": {
+      "coordinates": "pypi/pypi/-/einops/0.7.0",
+      "copyright": "Copyright (c) 2018 Alex Rogozhnikov",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/einops/0.7.0/"
+    },
+    "pypi:en-dtypes": {
+      "coordinates": "pypi/pypi/-/en-dtypes/0.0.4",
+      "copyright": "Copyright 2024 The; Copyright (c) 2007 Julien Pommier; Copyright (c) 2021 The Eigen Team; Copyright (c) 2022 Intel Corporation; Copyright (c) 2011, Intel Corporation",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND MPL-2.0",
+      "source": "https://pypi.org/project/en-dtypes/0.0.4/"
+    },
+    "pypi:et-xmlfile": {
+      "coordinates": "pypi/pypi/-/et-xmlfile/1.1.0",
+      "copyright": "Copyright (c) 2010-2015 openpyxl",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/et-xmlfile/1.1.0/"
+    },
+    "pypi:expecttest": {
+      "coordinates": "pypi/pypi/-/expecttest/0.3.0",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/ezyang/expecttest/tree/4c4f88bda509c73cf26628b86902887cfdd6fedd",
+      "supplier": "ezyang"
+    },
+    "pypi:fastapi": {
+      "coordinates": "pypi/pypi/-/fastapi/0.138.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/fastapi/0.138.1/"
+    },
+    "pypi:fastchat": {
+      "coordinates": "pypi/pypi/-/fastchat/0.1.0",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/fastchat/0.1.0/"
+    },
+    "pypi:filelock": {
+      "coordinates": "pypi/pypi/-/filelock/3.29.4",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/filelock/3.29.4/"
+    },
+    "pypi:flash-attn": {
+      "coordinates": "pypi/pypi/-/flash-attn/2.8.3.post1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/flash-attn/2.8.3.post1/"
+    },
+    "pypi:fsspec": {
+      "coordinates": "pypi/pypi/-/fsspec/2024.3.1",
+      "copyright": "Copyright (c) 2018, Martin Durant",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://github.com/fsspec/filesystem_spec/tree/47b445ae4c284a82dd15e0287b1ffc410e8fc470",
+      "supplier": "fsspec"
+    },
+    "pypi:ftfy": {
+      "coordinates": "pypi/pypi/-/ftfy/6.3.1",
+      "copyright": "Copyright 2023 Robyn Speer; copyright 2024, Robyn Speer",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference",
+      "source": "https://pypi.org/project/ftfy/6.3.1/"
+    },
+    "pypi:furo": {
+      "coordinates": "pypi/pypi/-/furo/2025.12.19",
+      "copyright": "copyright 2020, Pradyun Gedam; Copyright (c) 2021 Pradyun Gedam; Copyright (c) 2020 Pradyun Gedam <mail@pradyunsg.me>",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/furo/2025.12.19/"
+    },
+    "pypi:fuzzywuzzy": {
+      "coordinates": "pypi/pypi/-/fuzzywuzzy/0.18.0",
+      "copyright": "Copyright (c) 2014 SeatGeek; Copyright (c) 1989, 1991 Free Software Foundation, Inc.",
+      "fetched": "2026-06-28",
+      "license": "GPL-2.0-only AND GPL-3.0-or-later",
+      "source": "https://github.com/seatgeek/fuzzywuzzy/tree/749d61ab2ea35498c4d04d74dafde9248f253fb4",
+      "supplier": "seatgeek"
+    },
+    "pypi:gevent": {
+      "coordinates": "pypi/pypi/-/gevent/22.10.2",
+      "copyright": "Copyright 2018 gevent; copyright 2018 gevent; Copyright (c) 2014 V G; Copyright (c) 2018 gevent; Copyright 2009 FriendFeed",
+      "fetched": "2026-06-28",
+      "license": "MIT AND Python-2.0",
+      "source": "https://pypi.org/project/gevent/22.10.2/"
+    },
+    "pypi:geventhttpclient": {
+      "coordinates": "pypi/pypi/-/geventhttpclient/2.0.11",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/gwik/geventhttpclient/tree/c4a256f07fc8bc16e4716dfc29152caa5604285f",
+      "supplier": "gwik"
+    },
+    "pypi:gguf": {
+      "coordinates": "pypi/pypi/-/gguf/0.10.0",
+      "copyright": "Copyright (c) 2023 Georgi Gerganov",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/gguf/0.10.0/"
+    },
+    "pypi:gradio": {
+      "coordinates": "pypi/pypi/-/gradio/6.19.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/gradio/6.19.0/"
+    },
+    "pypi:greenlet": {
+      "coordinates": "pypi/pypi/-/greenlet/3.0.3",
+      "copyright": "Copyright (c) 2018 gevent community; Copyright (c) 2021 greenlet community; Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Python Software Foundation",
+      "fetched": "2026-06-28",
+      "license": "MIT AND PSF-2.0",
+      "source": "https://pypi.org/project/greenlet/3.0.3/"
+    },
+    "pypi:huggingface-hub": {
+      "coordinates": "pypi/pypi/-/huggingface-hub/0.17.3",
+      "copyright": "Copyright 2020 Optuna, Hugging Face; Copyright 2020 The HuggingFace Team; Copyright 2022 The HuggingFace Team; Copyright 2023 The HuggingFace Team; Copyright 2021 The HuggingFace Inc. team",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/huggingface_hub/tree/3680414f0285903ba12eaed68c1d62931559017f",
+      "supplier": "huggingface"
+    },
+    "pypi:hydra-core": {
+      "coordinates": "pypi/pypi/-/hydra-core/1.4.0.dev5",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/hydra-core/1.4.0.dev5/"
+    },
+    "pypi:hypothesis": {
+      "coordinates": "pypi/pypi/-/hypothesis/6.155.7",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/hypothesis/6.155.7/"
+    },
+    "pypi:icecream": {
+      "coordinates": "pypi/pypi/-/icecream/2.1.3",
+      "copyright": "Copyright 2018 Ansgar Grunseid",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/gruns/icecream/tree/cbd6da2fa02d480cd32df1e9e526c360318843f0",
+      "supplier": "gruns"
+    },
+    "pypi:idna": {
+      "coordinates": "pypi/pypi/-/idna/3.6",
+      "copyright": "Copyright (c) 2013-2023, Kim Davies and contributors",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/idna/3.6/"
+    },
+    "pypi:imagesize": {
+      "coordinates": "pypi/pypi/-/imagesize/1.4.1",
+      "copyright": "Copyright (c) 2016 Yoshiki Shibukawa",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/shibukawa/imagesize_py/tree/8d88ec6b646d6184b5633604551d6fc154783073",
+      "supplier": "shibukawa"
+    },
+    "pypi:importlib-metadata": {
+      "coordinates": "pypi/pypi/-/importlib-metadata/9.0.0",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/importlib-metadata/9.0.0/"
+    },
+    "pypi:ipaddress": {
+      "coordinates": "pypi/pypi/-/ipaddress/1.0.23",
+      "copyright": "Copyright 2007 Google Inc.; Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Python Software Foundation",
+      "fetched": "2026-06-28",
+      "license": "PSF-2.0",
+      "source": "https://github.com/phihag/ipaddress/tree/d8aef06cc3ca8a6fd8570cda665b2bb879a29390",
+      "supplier": "phihag"
+    },
+    "pypi:jieba": {
+      "coordinates": "pypi/pypi/-/jieba/0.42.1",
+      "copyright": "Copyright (c) 2019 PaddlePaddle",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/fxsjy/jieba/tree/1e20c89b66f56c9301b0feed211733ffaa1bd72a",
+      "supplier": "fxsjy"
+    },
+    "pypi:jinja2": {
+      "coordinates": "pypi/pypi/-/jinja2/3.1.6",
+      "copyright": "Copyright 2007 Pallets; copyright 2007 Pallets; (c) Copyright 2008 by http://domain.invalid/>",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/jinja2/3.1.6/"
+    },
+    "pypi:jsonlines": {
+      "coordinates": "pypi/pypi/-/jsonlines/4.0.0",
+      "copyright": "Copyright (c) 2016, wouter bolsterlee",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://github.com/wbolster/jsonlines/tree/77cb45eb8bebb5a01b590b935e2b3093754b98d3",
+      "supplier": "wbolster"
+    },
+    "pypi:lark": {
+      "coordinates": "pypi/pypi/-/lark/1.2.2",
+      "copyright": "copyright 2020, Erez Shinan; Copyright (c) 2017 Erez Shinan; Copyright (c) 2017-2020, PyInstaller Development Team.",
+      "fetched": "2026-06-28",
+      "license": "MIT AND MPL-2.0",
+      "source": "https://pypi.org/project/lark/1.2.2/"
+    },
+    "pypi:latex2sympy2": {
+      "coordinates": "pypi/pypi/-/latex2sympy2/1.9.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/latex2sympy2/1.9.1/"
+    },
+    "pypi:libclang": {
+      "coordinates": "pypi/pypi/-/libclang/18.1.1",
+      "copyright": "Copyright (c) 2007-2019 University of Illinois at Urbana-Champaign",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/libclang/18.1.1/"
+    },
+    "pypi:librosa": {
+      "coordinates": "pypi/pypi/-/librosa/0.10.2.post1",
+      "copyright": "Copyright (c) 2013 2023, librosa development team",
+      "fetched": "2026-06-28",
+      "license": "ISC",
+      "source": "https://pypi.org/project/librosa/0.10.2.post1/"
+    },
+    "pypi:lm-format-enforcer": {
+      "coordinates": "pypi/pypi/-/lm-format-enforcer/0.11.3",
+      "copyright": "Copyright (c) 2023 Noam Gat; Copyright (c) 2019 Koudai Aono",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/noamgat/lm-format-enforcer/tree/05c7dc3a46305e39c1a67c8622c433d8deda48a2",
+      "supplier": "noamgat"
+    },
+    "pypi:loguru": {
+      "coordinates": "pypi/pypi/-/loguru/0.7.2",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/loguru/0.7.2/"
+    },
+    "pypi:make": {
+      "coordinates": "pypi/pypi/-/make/0.1.6.post2",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://pypi.org/project/make/0.1.6.post2/"
+    },
+    "pypi:markupsafe": {
+      "coordinates": "pypi/pypi/-/markupsafe/2.1.5",
+      "copyright": "Copyright 2010 Pallets; copyright 2010 Pallets",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/markupsafe/2.1.5/"
+    },
+    "pypi:matplotlib": {
+      "coordinates": "pypi/pypi/-/matplotlib/3.11.0",
+      "copyright": "Copyright (c) 2016 Igalia S.L.; Copyright (c) 2007 Chris Wilson; Copyright (c) 2010 Doug Hellmann; Copyright 2010-2012, Google Inc.; Copyright (c) 2002 Hansruedi Baer",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND LicenseRef-scancode-matplotlib-1.3.0 AND Python-2.0",
+      "source": "https://pypi.org/project/matplotlib/3.11.0/"
+    },
+    "pypi:mindpet": {
+      "coordinates": "pypi/pypi/-/mindpet/1.0.4",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/mindpet/1.0.4/"
+    },
+    "pypi:mistral-common": {
+      "coordinates": "pypi/pypi/-/mistral-common/1.11.5",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/mistral_common/1.11.5/"
+    },
+    "pypi:mkdocs": {
+      "coordinates": "pypi/pypi/-/mkdocs/1.6.1",
+      "copyright": "Copyright (c) 2022 MkDocs; Copyright (c) 2024 MkDocs; Copyright 2023 Fonticons, Inc.; Copyright 2012-2023 Thomas Park; Copyright (c) 2015, Waylan Limberg",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/mkdocs/1.6.1/"
+    },
+    "pypi:mkdocs-gen-files": {
+      "coordinates": "pypi/pypi/-/mkdocs-gen-files/0.6.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/mkdocs-gen-files/0.6.1/"
+    },
+    "pypi:ml-dtypes": {
+      "coordinates": "pypi/pypi/-/ml-dtypes/0.5.4",
+      "copyright": "Copyright 2017 The; Copyright 2022 The; Copyright 2023 The; Copyright (c) 2007 Julien Pommier; Copyright (c) 2021 The Eigen Team",
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0 AND Apache-2.0",
+      "source": "https://pypi.org/project/ml-dtypes/0.5.4/"
+    },
+    "pypi:mpmath": {
+      "coordinates": "pypi/pypi/-/mpmath/1.3.0",
+      "copyright": "Copyright 2013 Timo Hartmann (thartmann15 at gmail.com); Copyright (c) 2005-2021 Fredrik Johansson and mpmath contributors",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/mpmath/1.3.0/"
+    },
+    "pypi:msgspec": {
+      "coordinates": "pypi/pypi/-/msgspec/0.21.1",
+      "copyright": "Copyright 2018 Ulf Adams; Copyright 2020 The Wuffs Authors; Copyright (c) 2021, Jim Crist-Harif; Copyright (c) 2020 YaoYuan <ibireme@gmail.com>",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/msgspec/0.21.1/"
+    },
+    "pypi:mteb": {
+      "coordinates": "pypi/pypi/-/mteb/1.1.1",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/embeddings-benchmark/mteb/tree/d3aaf4f1c1c503535d4d4de0a09e1ab7159dcd93",
+      "supplier": "embeddings-benchmark"
+    },
+    "pypi:multiprocess": {
+      "coordinates": "pypi/pypi/-/multiprocess/0.70.15",
+      "copyright": "Copyright (c) 2006-2008, R Oudkerk; Copyright (c) 2008-2016 California Institute of Technology; Copyright (c) 2023 The Uncertainty Quantification Foundation; Copyright (c) 2016-2023 The Uncertainty Quantification Foundation; Copyright (c) 2018-2023 The Uncertainty Quantification Foundation",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/multiprocess/0.70.15/"
+    },
+    "pypi:myst-parser": {
+      "coordinates": "pypi/pypi/-/myst-parser/5.1.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/myst-parser/5.1.0/"
+    },
+    "pypi:networkx": {
+      "coordinates": "pypi/pypi/-/networkx/3.2.1",
+      "copyright": "Copyright (c) 2015 - Thomson Licensing, SAS; Copyright 2011 Reya Group http://www.reyagroup.com; Copyright 2011 Alex Levenson <alex@isnotinvain.com>; Copyright 2011 Diederik van Liere <diederik.vanliere@rotman.utoronto.ca>; Copyright (c) 2004-2023 NetworkX Developers Aric Hagberg <hagberg@lanl.gov> Dan Schult <dschult@colgate.edu> Pieter Swart <swart@lanl.gov>",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/networkx/3.2.1/"
+    },
+    "pypi:ninja": {
+      "coordinates": "pypi/pypi/-/ninja/1.13.0",
+      "copyright": "Copyright 2001 Google Inc.; Copyright 2011 Google Inc.; Copyright 2012 Google Inc.; Copyright 2013 Google Inc.; Copyright 2014 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND CC-BY-4.0",
+      "source": "https://pypi.org/project/ninja/1.13.0/"
+    },
+    "pypi:nltk": {
+      "coordinates": "pypi/pypi/-/nltk/3.9.4",
+      "copyright": "Copyright (c) 2012 NLTK Project; Copyright 2015 The NLTK Project; Copyright 2002 by Grzegorz Kondrak; Copyright (c) 2001-2007 NLTK Project; Copyright (c) 2001-2013 NLTK Project",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/nltk/3.9.4/"
+    },
+    "pypi:numba": {
+      "coordinates": "pypi/pypi/-/numba/0.60.0",
+      "copyright": "Copyright (c) 2005 Don Owens; Copyright (c) 2015, Cloudpickle; Copyright (c) 2013 Eddy Petrisor; Copyright (c) 2015 Mountainstorm; Copyright (c) 2012, Anaconda, Inc.",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://pypi.org/project/numba/0.60.0/"
+    },
+    "pypi:numpy": {
+      "coordinates": "pypi/pypi/-/numpy/2.5.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/numpy/2.5.0/"
+    },
+    "pypi:omegaconf": {
+      "coordinates": "pypi/pypi/-/omegaconf/2.4.0.dev12",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/omegaconf/2.4.0.dev12/"
+    },
+    "pypi:onnx": {
+      "coordinates": "pypi/pypi/-/onnx/1.16.0",
+      "copyright": "Copyright 2020 Jan Tojnar; Copyright 2015 Google Inc.; Copyright 2018 Google Inc.; Copyright 2020 Google Inc.; Copyright 2021 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/onnx/1.16.0/"
+    },
+    "pypi:onnxruntime": {
+      "coordinates": "pypi/pypi/-/onnxruntime/1.6.0",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/onnxruntime/1.6.0/"
+    },
+    "pypi:open-clip-torch": {
+      "coordinates": "pypi/pypi/-/open-clip-torch/2.26.1",
+      "copyright": "Copyright (c) 2021 OpenAI.; Copyright (c) 2012-2021 Gabriel Ilharco, Mitchell Wortsman, Nicholas Carlini, Rohan Taori, Achal Dave, Vaishaal Shankar, John Miller, Hongseok Namkoong, Hannaneh Hajishirzi, Ali Farhadi",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/mlfoundations/open_clip/tree/fc5a37b72d705f760ebbc7915b84729816ed471f",
+      "supplier": "mlfoundations"
+    },
+    "pypi:openai": {
+      "coordinates": "pypi/pypi/-/openai/2.44.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/openai/2.44.0/"
+    },
+    "pypi:opencv-python": {
+      "coordinates": "pypi/pypi/-/opencv-python/4.1.2.30",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/opencv-python/4.1.2.30/"
+    },
+    "pypi:opencv-python-headless": {
+      "coordinates": "pypi/pypi/-/opencv-python-headless/4.13.0.92",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/opencv-python-headless/4.13.0.92/"
+    },
+    "pypi:openpyxl": {
+      "coordinates": "pypi/pypi/-/openpyxl/3.1.2",
+      "copyright": "Copyright (c) 2010 openpyxl; Copyright (c) 2010-2023 openpyxl; Copyright (c) 2010-2023 openpyxl from openpyxl.descriptors.serialisable import",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/openpyxl/3.1.2/"
+    },
+    "pypi:optimum": {
+      "coordinates": "pypi/pypi/-/optimum/2.2.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/optimum/2.2.0/"
+    },
+    "pypi:outlines": {
+      "coordinates": "pypi/pypi/-/outlines/0.1.11",
+      "copyright": "Copyright (c) 2017 Erez Shinan; Copyright 2023 the vLLM developers; Copyright 2023- The Outlines developers; Copyright 2024- the Outlines developers; Copyright Copyright (c) 2023- The Outlines Developers",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/outlines/0.1.11/"
+    },
+    "pypi:packaging": {
+      "coordinates": "pypi/pypi/-/packaging/26.2.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/packaging/26.2.0/"
+    },
+    "pypi:panda": {
+      "coordinates": "pypi/pypi/-/panda/0.3.1",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/panda/0.3.1/"
+    },
+    "pypi:pandas": {
+      "coordinates": "pypi/pypi/-/pandas/3.0.3",
+      "copyright": "Copyright (c) 2009 join; Copyright (c) 1994 David Burren; Copyright (c) 2014, Al Sweigart; Copyright (c) 2011 Valentin Ochs; Copyright (c) 2019 Hadley Wickham",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/pandas/3.0.3/"
+    },
+    "pypi:partial-json-parser": {
+      "coordinates": "pypi/pypi/-/partial-json-parser/0.2.1.1.post7",
+      "copyright": "Copyright (c) 2025 Promplate",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/partial-json-parser/0.2.1.1.post7/"
+    },
+    "pypi:pebble": {
+      "coordinates": "pypi/pypi/-/pebble/5.2.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pebble/5.2.0/"
+    },
+    "pypi:peft": {
+      "coordinates": "pypi/pypi/-/peft/0.7.1",
+      "copyright": "Copyright 2023 The HuggingFace Team; Copyright 2023-present the HuggingFace Inc. team",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/peft/tree/67a08009ff1f0b4282003c0aba174d0be292c10e",
+      "supplier": "huggingface"
+    },
+    "pypi:pillow": {
+      "coordinates": "pypi/pypi/-/pillow/12.2.0",
+      "fetched": "2026-06-28",
+      "license": "MIT-CMU",
+      "source": "https://pypi.org/project/pillow/12.2.0/"
+    },
+    "pypi:pip": {
+      "coordinates": "pypi/pypi/-/pip/26.1.2",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pip/26.1.2/"
+    },
+    "pypi:plotly": {
+      "coordinates": "pypi/pypi/-/plotly/6.8.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/plotly/6.8.0/"
+    },
+    "pypi:posix-ipc": {
+      "coordinates": "pypi/pypi/-/posix-ipc/1.2.0",
+      "copyright": "Copyright 2022 Philip Semanchuk; Copyright (c) 2008 - 2025, Philip Semanchuk; Copyright (c) 1999, 2002 Aladdin Enterprises; Copyright (c) 1999, 2000, 2002 Aladdin Enterprises",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/posix-ipc/1.2.0/"
+    },
+    "pypi:pre-commit": {
+      "coordinates": "pypi/pypi/-/pre-commit/4.6.0",
+      "copyright": "Copyright 2021 RStudio; Copyright (c) 2014 pre-commit dev team Anthony Sottile, Ken Struys",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/pre-commit/pre-commit/tree/f35134b05028ec938ac605ae500fdf95462655d3",
+      "supplier": "pre-commit"
+    },
+    "pypi:prometheus-client": {
+      "coordinates": "pypi/pypi/-/prometheus-client/0.25.0",
+      "copyright": "Copyright 2015 The Prometheus Authors; Copyright (c) 2005-2016, Michele Simionato",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND BSD-2-Clause",
+      "source": "https://pypi.org/project/prometheus-client/0.25.0/"
+    },
+    "pypi:prometheus-fastapi-instrumentator": {
+      "coordinates": "pypi/pypi/-/prometheus-fastapi-instrumentator/8.0.2",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/prometheus-fastapi-instrumentator/8.0.2/"
+    },
+    "pypi:protobuf": {
+      "coordinates": "pypi/pypi/-/protobuf/3.20.3",
+      "copyright": "Copyright 2007 Google Inc.; Copyright 2008 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/protobuf/3.20.3/"
+    },
+    "pypi:psutil": {
+      "coordinates": "pypi/pypi/-/psutil/7.2.2",
+      "copyright": "Copyright (c) 2009, Giampaolo; Copyright (c) 2017, Arnon Yaari; Copyright (c) 2015, Ryo ONODERA.; Copyright (c) 2009 Giampaolo Rodola; Copyright (c) 2009, Giampaolo Rodola",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/psutil/7.2.2/"
+    },
+    "pypi:psutils": {
+      "coordinates": "pypi/pypi/-/psutils/3.3.11",
+      "copyright": "Copyright (c) 1988, 89, 90, 91, 92, 93 Miguel Santana; Copyright (c) 1995, 96, 97, 98 Akim Demaille, Miguel Santana; Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>; Copyright (c) 1995, 96, 97, 98 Akim Demaille, Miguel Santana Check PostScript",
+      "fetched": "2026-06-28",
+      "license": "GPL-3.0 AND GPL-3.0-only",
+      "source": "https://pypi.org/project/psutils/3.3.11/"
+    },
+    "pypi:pyarrow": {
+      "coordinates": "pypi/pypi/-/pyarrow/19.0.0",
+      "copyright": "Copyright 2011 Kitware, Inc.; Copyright 2012 Cloudera Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/pyarrow/19.0.0/"
+    },
+    "pypi:pybind11": {
+      "coordinates": "pypi/pypi/-/pybind11/2.10.3",
+      "copyright": "Copyright 2001-2009 Kitware, Inc.; Copyright (c) 2017 Henry F. Schreiner; Copyright 2012 Continuum Analytics, Inc.; Copyright (c) 2021 The Pybind Development Team; Copyright (c) 2016 Sergey Lyskov and Wenzel Jakob",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://github.com/pybind/pybind11/tree/0bd8896a4010f2d91b2340570c24fa08606ec406",
+      "supplier": "pybind"
+    },
+    "pypi:pycocotools": {
+      "coordinates": "pypi/pypi/-/pycocotools/2.0.11",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause-FreeBSD AND LicenseRef-scancode-unknown",
+      "source": "https://pypi.org/project/pycocotools/2.0.11/"
+    },
+    "pypi:pydantic": {
+      "coordinates": "pypi/pypi/-/pydantic/2.13.4",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pydantic/2.13.4/"
+    },
+    "pypi:pygments": {
+      "coordinates": "pypi/pypi/-/pygments/2.20.0",
+      "copyright": "copyright 2006. Text; Copyright 2013 Wikimedia; copyright 2006. Uploaded; Copyright (c) 2006, Manni; Copyright (c) 2008 Silken",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://pypi.org/project/pygments/2.20.0/"
+    },
+    "pypi:pymdown-extensions": {
+      "coordinates": "pypi/pypi/-/pymdown-extensions/11.0.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pymdown-extensions/11.0.0/"
+    },
+    "pypi:pytest": {
+      "coordinates": "pypi/pypi/-/pytest/9.1.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pytest/9.1.1/"
+    },
+    "pypi:pytest-cov": {
+      "coordinates": "pypi/pypi/-/pytest-cov/7.1.0",
+      "copyright": "Copyright (c) 2010 Meme Dough",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pytest-cov/7.1.0/"
+    },
+    "pypi:pytest-forked": {
+      "coordinates": "pypi/pypi/-/pytest-forked/1.6.0",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/pytest-dev/pytest-forked/tree/ec46db382116f82d36ebc4ceba453b903be7174b",
+      "supplier": "pytest-dev"
+    },
+    "pypi:pytest-html": {
+      "coordinates": "pypi/pypi/-/pytest-html/4.2.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pytest-html/4.2.0/"
+    },
+    "pypi:pytest-mock": {
+      "coordinates": "pypi/pypi/-/pytest-mock/3.15.1",
+      "copyright": "copyright 2022, Bruno Oliveira; Copyright (c) 2016 Bruno Oliveira",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pytest-mock/3.15.1/"
+    },
+    "pypi:pytest-rerunfailures": {
+      "coordinates": "pypi/pypi/-/pytest-rerunfailures/16.3.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/pytest-rerunfailures/16.3.0/"
+    },
+    "pypi:pytest-xdist": {
+      "coordinates": "pypi/pypi/-/pytest-xdist/3.8.0",
+      "copyright": "copyright 2010, holger krekel and contributors; Copyright (c) 2010 Holger Krekel and contributors",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pytest-xdist/3.8.0/"
+    },
+    "pypi:python-dateutil": {
+      "coordinates": "pypi/pypi/-/python-dateutil/2.9.0.post0",
+      "copyright": "copyright 2019, dateutil; Copyright 2017- dateutil contributors; Copyright (c) 2015- - dateutil contributors; Copyright 2017- Paul Ganssle <paul@ganssle.io>; Copyright (c) 2015- - Paul Ganssle <paul@ganssle.io>",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference",
+      "source": "https://github.com/dateutil/dateutil/tree/1ae807774053c071acc9e7d3d27778fba0a7773e",
+      "supplier": "dateutil"
+    },
+    "pypi:python-levenshtein": {
+      "coordinates": "pypi/pypi/-/python-levenshtein/0.27.3",
+      "copyright": "Copyright (c) 1989, 1991 Free Software Foundation, Inc.",
+      "fetched": "2026-06-28",
+      "license": "GPL-2.0-or-later",
+      "source": "https://pypi.org/project/python-levenshtein/0.27.3/"
+    },
+    "pypi:python-rapidjson": {
+      "coordinates": "pypi/pypi/-/python-rapidjson/1.16",
+      "copyright": "Copyright (c) 2002 JSON.org; Copyright (c) 2015 Ken Robbins; Copyright (c) 2019 Lele Gaifax; Copyright (c) 2015 John Anderson; Copyright (c) 2018 Silvio Tomatis",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/python-rapidjson/python-rapidjson/tree/018fe4a6ec675cba96b4a635fcb01b0aec7c5cf9",
+      "supplier": "python-rapidjson"
+    },
+    "pypi:pytorchvideo": {
+      "coordinates": "pypi/pypi/-/pytorchvideo/0.1.5",
+      "copyright": "Copyright 2019, Facebook, Inc",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/pytorchvideo/0.1.5/"
+    },
+    "pypi:pytz": {
+      "coordinates": "pypi/pypi/-/pytz/2024.1",
+      "copyright": "Copyright (c) 2003-2019 Stuart Bishop <stuart@stuartbishop.net>",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pytz/2024.1/"
+    },
+    "pypi:pyyaml": {
+      "coordinates": "pypi/pypi/-/pyyaml/6.0.3",
+      "copyright": "Copyright (c) 2017-2021 Ingy; Copyright (c) 2006-2016 Kirill Simonov",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/pyyaml/6.0.3/"
+    },
+    "pypi:pyzmq": {
+      "coordinates": "pypi/pypi/-/pyzmq/27.1.0",
+      "copyright": "Copyright 2009 Facebook; Copyright 2009, Facebook; Copyright 2010, Justin Riley; Copyright (c) 2010 Justin Riley; Copyright (c) 2010 Brian Granger",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/pyzmq/27.1.0/"
+    },
+    "pypi:rapidfuzz": {
+      "coordinates": "pypi/pypi/-/rapidfuzz/3.7.0",
+      "copyright": "Copyright © 2011 Adam Cohen; Copyright 2006 Andy Tompkins; copyright 2021, Max Bachmann; Copyright (c) 2011 Adam Cohen; Copyright © 2020 Max Bachmann",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/rapidfuzz/RapidFuzz/tree/699a41bbe16252741a1fa5c3f8e955abc450d1a7",
+      "supplier": "rapidfuzz"
+    },
+    "pypi:ray": {
+      "coordinates": "pypi/pypi/-/ray/2.42.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/ray/2.42.1/"
+    },
+    "pypi:regex": {
+      "coordinates": "pypi/pypi/-/regex/2022.10.31",
+      "copyright": "Copyright 2020 Matthew Barnett; Copyright (c) 1997-2002 by Secret Labs AB; copyright (c) 1998-2001 by Secret Labs AB; Copyright (c) 1997-2001 by Secret Labs AB.; Copyright (c) 1998-2001 by Secret Labs AB.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/regex/2022.10.31/"
+    },
+    "pypi:requests": {
+      "coordinates": "pypi/pypi/-/requests/2.31.0",
+      "copyright": "Copyright 2019 Kenneth Reitz; copyright (c) 2012 by Kenneth Reitz; copyright (c) 2017 by Kenneth Reitz",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/requests/2.31.0/"
+    },
+    "pypi:rouge": {
+      "coordinates": "pypi/pypi/-/rouge/1.0.1",
+      "copyright": "Copyright 2017 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/pltrdy/rouge/tree/657d4d2f61892fb6c5aaf8796e93ebd3ed88e857",
+      "supplier": "pltrdy"
+    },
+    "pypi:rouge-chinese": {
+      "coordinates": "pypi/pypi/-/rouge-chinese/1.0.3",
+      "copyright": "Copyright 2017 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/rouge-chinese/1.0.3/"
+    },
+    "pypi:rouge-score": {
+      "coordinates": "pypi/pypi/-/rouge-score/0.1.2",
+      "copyright": "Copyright 2022 The",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/rouge-score/0.1.2/"
+    },
+    "pypi:ruamel-yaml": {
+      "coordinates": "pypi/pypi/-/ruamel-yaml/0.19.1",
+      "copyright": "Copyright (c) 2014-2026 Anthon van der Neut, Ruamel bvba",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/ruamel.yaml/0.19.1/"
+    },
+    "pypi:sacrebleu": {
+      "coordinates": "pypi/pypi/-/sacrebleu/2.6.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/sacrebleu/2.6.0/"
+    },
+    "pypi:safetensors": {
+      "coordinates": "pypi/pypi/-/safetensors/0.8.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/safetensors/0.8.0/"
+    },
+    "pypi:scikit-learn": {
+      "coordinates": "pypi/pypi/-/scikit-learn/1.9.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/scikit-learn/1.9.0/"
+    },
+    "pypi:scipy": {
+      "coordinates": "pypi/pypi/-/scipy/1.18.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/scipy/1.18.0/"
+    },
+    "pypi:seaborn": {
+      "coordinates": "pypi/pypi/-/seaborn/0.13.2",
+      "copyright": "Copyright (c) 2013 Eddy Petrisor; Copyright (c) 2012 Alexei Boronine; Copyright 2004-2005 by Enthought, Inc.; Copyright (c) 2012-2023, Michael L. Waskom; Copyright (c) 2010 ActiveState Software Inc.",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/seaborn/0.13.2/"
+    },
+    "pypi:sentencepiece": {
+      "coordinates": "pypi/pypi/-/sentencepiece/0.1.92",
+      "copyright": "Copyright 2018 Google Inc.",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/google/sentencepiece/tree/cf98a47b55cbdb503e04c99427baa361ebc6bd75",
+      "supplier": "google"
+    },
+    "pypi:setproctitle": {
+      "coordinates": "pypi/pypi/-/setproctitle/1.3.7",
+      "copyright": "Copyright (c) 2000-2009, PostgreSQL Global Development Group; Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>; Copyright (c) 2009 Daniele Varrazzo <daniele.varrazzo@gmail.com>; Copyright (c) 2010 Daniele Varrazzo <daniele.varrazzo@gmail.com>; Copyright (c) 2011 Daniele Varrazzo <daniele.varrazzo@gmail.com>",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/setproctitle/1.3.7/"
+    },
+    "pypi:setuptools": {
+      "coordinates": "pypi/pypi/-/setuptools/82.0.1",
+      "copyright": "Copyright (c) 2012 Erik Rose; Copyright 2021 Taneli Hukkinen; Copyright 2014-2015 Nathan West; Copyright 2014-2016 Nathan West; Copyright (c) 2021 Taneli Hukkinen",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/setuptools/82.0.1/"
+    },
+    "pypi:setuptools-scm": {
+      "coordinates": "pypi/pypi/-/setuptools-scm/10.2.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/setuptools-scm/10.2.0/"
+    },
+    "pypi:six": {
+      "coordinates": "pypi/pypi/-/six/1.16.0",
+      "copyright": "Copyright (c) 2010-2020 Benjamin Peterson",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/benjaminp/six/tree/65486e4383f9f411da95937451205d3c7b61b9e1",
+      "supplier": "benjaminp"
+    },
+    "pypi:soundfile": {
+      "coordinates": "pypi/pypi/-/soundfile/0.14.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/soundfile/0.14.0/"
+    },
+    "pypi:sphinx": {
+      "coordinates": "pypi/pypi/-/sphinx/5.2.3",
+      "copyright": "Copyright (c) 2013, foo; Copyright (c) 2015, dev; Copyright (c) 2018, dev; Copyright (c) 2012, foof; Copyright (c) 2013, sphinx",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/sphinx/5.2.3/"
+    },
+    "pypi:sphinx-reredirects": {
+      "coordinates": "pypi/pypi/-/sphinx-reredirects/0.1.2",
+      "copyright": "Copyright (c) 2020, documatt",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause",
+      "source": "https://pypi.org/project/sphinx-reredirects/0.1.2/"
+    },
+    "pypi:sphinx-tabs": {
+      "coordinates": "pypi/pypi/-/sphinx-tabs/3.4.1",
+      "copyright": "Copyright (c) 2017 djungelorm",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/executablebooks/sphinx-tabs/tree/9431223384729010ba29c27c2d2976ce76b7e1ad",
+      "supplier": "executablebooks"
+    },
+    "pypi:sphinx-toolbox": {
+      "coordinates": "pypi/pypi/-/sphinx-toolbox/3.4.0",
+      "copyright": "Copyright (c) 2017 djungelorm; Copyright (c) 2021 Franz Wollert; Copyright (c) 2015 Hynek Schlawack; Copyright (c) 2020 Executable Books; Copyright 2008-2014 by Georg Brandl",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/sphinx-toolbox/sphinx-toolbox/tree/adc729df819babbc59298fbc7785db5754849811",
+      "supplier": "sphinx-toolbox"
+    },
+    "pypi:sphinxcontrib-httpdomain": {
+      "coordinates": "pypi/pypi/-/sphinxcontrib-httpdomain/1.8.1",
+      "copyright": "Copyright 2011 by Hong Minhee; Copyright (c) 2022 ORGANIZATION; Copyright 2012 by Jameel Al-Aziz; Copyright 2013 by Rodrigo Machado; Copyright 2007-2009 by the Sphinx team",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://github.com/sphinx-contrib/httpdomain/tree/102f0368c612d6292b8e30c67c3dab8709deee19",
+      "supplier": "sphinx-contrib"
+    },
+    "pypi:sphinxcontrib-napoleon": {
+      "coordinates": "pypi/pypi/-/sphinxcontrib-napoleon/0.7",
+      "copyright": "Copyright 2014 Rob Ruana; Copyright 2013-2018 by Rob Ruana; Copyright 2007-2018 by the Sphinx team; Copyright (c) 2013 by the contributors (see AUTHORS file); Copyright (c) 2008 Stefan van der Walt <stefan@mentat.za.net> , Pauli Virtanen <pav@iki.fi>",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "https://pypi.org/project/sphinxcontrib-napoleon/0.7/"
+    },
+    "pypi:sympy": {
+      "coordinates": "pypi/pypi/-/sympy/1.14.0",
+      "copyright": "Copyright 2016, latex2sympy; Copyright (c) 2014 Matthew Rocklin; Copyright (c) 2009-2023, PyDy Authors; copyright 2015, SymPy Development Team; Copyright (c) 2006-2014 SymPy developers",
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause AND BSD-3-Clause AND MIT",
+      "source": "https://pypi.org/project/sympy/1.14.0/"
+    },
+    "pypi:tables": {
+      "coordinates": "pypi/pypi/-/tables/3.11.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tables/3.11.1/"
+    },
+    "pypi:tabulate": {
+      "coordinates": "pypi/pypi/-/tabulate/0.10.0",
+      "copyright": "Copyright (c) 2011-2020 Sergey Astanin and contributors",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/tabulate/0.10.0/"
+    },
+    "pypi:tensorboardx": {
+      "coordinates": "pypi/pypi/-/tensorboardx/2.6.5",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tensorboardx/2.6.5/"
+    },
+    "pypi:tensordict": {
+      "coordinates": "pypi/pypi/-/tensordict/0.13.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tensordict/0.13.0/"
+    },
+    "pypi:tensorflow": {
+      "coordinates": "pypi/pypi/-/tensorflow/2.20.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tensorflow/2.20.0/"
+    },
+    "pypi:tensorflow-cpu": {
+      "coordinates": "pypi/pypi/-/tensorflow-cpu/2.19.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tensorflow-cpu/2.19.1/"
+    },
+    "pypi:termcolor": {
+      "coordinates": "pypi/pypi/-/termcolor/3.3.0",
+      "copyright": "Copyright (c) 2008-2011 Volvox Development Team",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/termcolor/3.3.0/"
+    },
+    "pypi:thefuzz": {
+      "coordinates": "pypi/pypi/-/thefuzz/0.22.1",
+      "copyright": "Copyright (c) 2014 SeatGeek",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/seatgeek/thefuzz/tree/a1a8cdebd84d5bc3abf25ebcb398f26bbfdf30a8",
+      "supplier": "seatgeek"
+    },
+    "pypi:tiktoken": {
+      "coordinates": "pypi/pypi/-/tiktoken/0.6.0",
+      "copyright": "Copyright (c) 2022 OpenAI, Shantanu Jain",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/tiktoken/0.6.0/"
+    },
+    "pypi:timeout-decorator": {
+      "coordinates": "pypi/pypi/-/timeout-decorator/0.5.0",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://github.com/pnpnpn/timeout-decorator/tree/9fbc3ef5b6f8f8cba2eb7ba795813d6ec543e265",
+      "supplier": "pnpnpn"
+    },
+    "pypi:timm": {
+      "coordinates": "pypi/pypi/-/timm/0.9.16",
+      "copyright": "Copyright 2020 Google LLC; Copyright (c) 2021 Meituan; Copyright 2021 Sea Limited; Copyright (c) 2021 Microsoft; Copyright (c) 2022 Microsoft",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/pytorch-image-models/tree/6e6f3686a7e06bcba37bbd3b7c755f04a516a1e7",
+      "supplier": "huggingface"
+    },
+    "pypi:tokenizers": {
+      "coordinates": "pypi/pypi/-/tokenizers/0.21.0",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/tokenizers/0.21.0/"
+    },
+    "pypi:toolz": {
+      "coordinates": "pypi/pypi/-/toolz/1.1.0",
+      "copyright": "Copyright (c) 2013 Matthew Rocklin",
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "https://pypi.org/project/toolz/1.1.0/"
+    },
+    "pypi:torch": {
+      "coordinates": "pypi/pypi/-/torch/2.12.1",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/torch/2.12.1/"
+    },
+    "pypi:torch-npu": {
+      "coordinates": "pypi/pypi/-/torch-npu/2.10.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/torch-npu/2.10.0/"
+    },
+    "pypi:torchaudio": {
+      "coordinates": "pypi/pypi/-/torchaudio/2.9.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/torchaudio/2.9.0/"
+    },
+    "pypi:torchvision": {
+      "coordinates": "pypi/pypi/-/torchvision/0.16.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/torchvision/0.16.0/"
+    },
+    "pypi:tornado": {
+      "coordinates": "pypi/pypi/-/tornado/6.5.7",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tornado/6.5.7/"
+    },
+    "pypi:tqdm": {
+      "coordinates": "pypi/pypi/-/tqdm/4.68.3",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/tqdm/4.68.3/"
+    },
+    "pypi:transformers": {
+      "coordinates": "pypi/pypi/-/transformers/4.30.2",
+      "copyright": "Copyright 2018 T5; Copyright 2020 T5; Copyright 2021 T5; Copyright 2022 LongT5; Copyright 2023 NllbMoe",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/transformers/tree/66fd3a8d626a32989f4569260db32785c6cbf42a",
+      "supplier": "huggingface"
+    },
+    "pypi:transformers-stream-generator": {
+      "coordinates": "pypi/pypi/-/transformers-stream-generator/0.0.5",
+      "copyright": "Copyright (c) 2023 lowinli",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND MIT",
+      "source": "https://github.com/LowinLi/transformers-stream-generator/tree/f3866b70d6fd1718eb04e84b2420b80c1688ab0c",
+      "supplier": "LowinLi"
+    },
+    "pypi:trl": {
+      "coordinates": "pypi/pypi/-/trl/0.7.10",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/huggingface/trl/tree/09ca7607d50714a80c9f0feb206b29f1c5a49bab",
+      "supplier": "huggingface"
+    },
+    "pypi:typing-extensions": {
+      "coordinates": "pypi/pypi/-/typing-extensions/4.10.0",
+      "copyright": "Copyright (c) 1995-2001 Corporation for National Research Initiatives; Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, The Netherlands; Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Python Software Foundation",
+      "fetched": "2026-06-28",
+      "license": "Python-2.0.1",
+      "source": "https://pypi.org/project/typing-extensions/4.10.0/"
+    },
+    "pypi:tzdata": {
+      "coordinates": "pypi/pypi/-/tzdata/2024.1",
+      "copyright": "Copyright (c) 2020, Paul Ganssle; copyright 2020, Python Software Foundation",
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "https://github.com/python/tzdata/tree/7e71c6bf79c2a68dbaab908e51aa4f5985a65d08",
+      "supplier": "python"
+    },
+    "pypi:urllib3": {
+      "coordinates": "pypi/pypi/-/urllib3/2.2.1",
+      "copyright": "Copyright 2019-2022, Pyodide contributors; Copyright (c) 2019-2022, Pyodide contributors; Copyright (c) 2008-2020 Andrey Petrov and contributors",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/urllib3/2.2.1/"
+    },
+    "pypi:uvicorn": {
+      "coordinates": "pypi/pypi/-/uvicorn/0.49.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/uvicorn/0.49.0/"
+    },
+    "pypi:wandb": {
+      "coordinates": "pypi/pypi/-/wandb/0.16.3",
+      "copyright": "Copyright 2012 Google, Inc.; Copyright 2014 Thomas Amland; Copyright (c) 2014 Thomas Amland; Copyright (c) 2013 Peter M. Elias; Copyright 2006-2017 by the Pygments team",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/wandb/0.16.3/"
+    },
+    "pypi:wheel": {
+      "coordinates": "pypi/pypi/-/wheel/0.47.0",
+      "copyright": "copyright 2012, Daniel Holth; Copyright (c) 2012 Daniel Holth <dholth@fastmail.fm> and contributors",
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "https://pypi.org/project/wheel/0.47.0/"
+    },
+    "pypi:word2number": {
+      "coordinates": "pypi/pypi/-/word2number/1.1.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/word2number/1.1.0/"
+    },
+    "pypi:xgboost": {
+      "coordinates": "pypi/pypi/-/xgboost/3.3.0",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/xgboost/3.3.0/"
+    },
+    "pypi:xgrammar": {
+      "coordinates": "pypi/pypi/-/xgrammar/0.1.11",
+      "fetched": "2026-06-28",
+      "source": "https://pypi.org/project/xgrammar/0.1.11/"
+    },
+    "pypi:zope-event": {
+      "coordinates": "pypi/pypi/-/zope-event/5.0",
+      "copyright": "Copyright (c) 2004 Zope Foundation and Contributors; Copyright (c) 2006 Zope Foundation and Contributors; copyright 2010-2018, Zope Foundation and Contributors",
+      "fetched": "2026-06-28",
+      "license": "ZPL-2.1",
+      "source": "https://github.com/zopefoundation/zope.event/tree/dd5f1471dc56807802ed24f8627f3a8d509c7608",
+      "supplier": "zopefoundation"
+    },
+    "pypi:zope-interface": {
+      "coordinates": "pypi/pypi/-/zope-interface/6.3",
+      "copyright": "copyright 2012-2023, Zope Foundation; Copyright (c) 2002 Zope Foundation and Contributors; Copyright (c) 2003 Zope Foundation and Contributors; Copyright (c) 2004 Zope Foundation and Contributors; Copyright (c) 2006 Zope Foundation and Contributors",
+      "fetched": "2026-06-28",
+      "license": "ZPL-2.1",
+      "source": "https://github.com/zopefoundation/zope.interface/tree/04039c358b54d830d2a9cb5458458f61c626eb35",
+      "supplier": "zopefoundation"
+    }
+  },
+  "schema": 1
+}

@@ -1,0 +1,71 @@
+# CANN profile alias map — raw spelling -> {canonical, relation}.
+#
+# Loaded by sbom_profile_cann.alias_map(). Edit HERE to extend coverage without
+# touching Python. relation is one of: depends_on (CANN package dep) | link (raw
+# link library / imported target) | tooling | build_dependency_of.
+#
+# Scope note: third-party fetched via ExternalProject/FetchContent that carries a
+# download URL (eigen, abseil-cpp, protobuf, …) is now canonicalized ON THE FLY
+# from that URL by the generic core, so its build-target spellings no longer NEED
+# an entry here. The entries below are kept for the spellings derivation CANNOT
+# reach (no download URL): CANN-internal link targets, find_package / package-dep
+# spelling variants, cross-name aliases, and build sub-variants.
+
+# OPBASE find_package module ≡ opbase package dep
+OPBASE:        {canonical: opbase, relation: depends_on}
+opbase:        {canonical: opbase, relation: depends_on}
+# tilingapi find_package ≡ tiling_api raw link lib
+tilingapi:     {canonical: tiling_api, relation: link}
+tiling_api:    {canonical: tiling_api, relation: link}
+# ASC find_package ≡ asc-devkit package dep
+ASC:           {canonical: asc-devkit, relation: depends_on}
+asc-devkit:    {canonical: asc-devkit, relation: depends_on}
+asc-tools:     {canonical: asc-tools, relation: depends_on}
+# securec find_package (non-REQUIRED) ≡ c_sec raw link lib ≡ libboundscheck
+securec:        {canonical: securec, relation: link}
+c_sec:          {canonical: securec, relation: link}
+libboundscheck: {canonical: securec, relation: link}
+# Other unconditional find_package modules
+dlog:          {canonical: dlog, relation: depends_on}
+unified_dlog:  {canonical: dlog, relation: link}
+platform:      {canonical: platform, relation: link}
+metadef:       {canonical: metadef, relation: depends_on}
+runtime:       {canonical: runtime, relation: depends_on}
+nnopbase:      {canonical: nnopbase, relation: link}
+aicpu:         {canonical: aicpu, relation: link}
+# CANN package deps (version.cmake)
+ge-compiler:      {canonical: ge-compiler, relation: depends_on}
+ge_compiler:      {canonical: ge-compiler, relation: depends_on}
+bisheng-compiler: {canonical: bisheng-compiler, relation: tooling}
+ge-executor:      {canonical: ge-executor, relation: depends_on}
+ge_runner:        {canonical: ge-executor, relation: link}
+ops-legacy:       {canonical: ops-legacy, relation: depends_on}
+# Raw-link surface (CANN-internal libraries; no download URL to derive from)
+exe_graph:           {canonical: exe_graph, relation: link}
+graph:               {canonical: graph, relation: link}
+graph_base:          {canonical: graph_base, relation: link}
+opapi:               {canonical: opapi, relation: link}
+cust_opapi:          {canonical: opapi, relation: link}
+rt2_registry_static: {canonical: rt2_registry_static, relation: link}
+mmpa:                {canonical: mmpa, relation: link}
+register:            {canonical: register, relation: link}
+ascendcl:            {canonical: ascendcl, relation: link}
+# torch_npu raw link lib ≡ the Python wheel's torch-npu runtime dep (one component)
+torch_npu:     {canonical: torch-npu, relation: link}
+# Third-party OSS build-target spellings WITHOUT a derivable URL (the bare imported
+# target Eigen3::Eigen, and protobuf build sub-variants). The URL-bearing roots
+# (external_eigen, abseil_build, protobuf_src) are also covered by derivation, but
+# are kept for repos/builds where the URL is unavailable statically.
+external_eigen:             {canonical: eigen, relation: link}
+"Eigen3::Eigen":            {canonical: eigen, relation: link}
+abseil_build:               {canonical: abseil-cpp, relation: link}
+third_party_json:           {canonical: json, relation: link}
+third_party_gtest:          {canonical: gtest, relation: link}
+protobuf_src:               {canonical: protobuf, relation: link}
+protobuf_shared_build:      {canonical: protobuf, relation: link}
+protobuf_static_build:      {canonical: protobuf, relation: link}
+protobuf_host_build:        {canonical: protobuf, relation: link}
+protobuf_host_static_build: {canonical: protobuf, relation: link}
+# boost is fetched as INTERFACE link targets (no derivable tarball on the token)
+third_party_boost:          {canonical: boost, relation: link}
+third_party_boost_headers:  {canonical: boost, relation: link}

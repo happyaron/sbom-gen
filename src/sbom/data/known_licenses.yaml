@@ -1,0 +1,9 @@
+# Generic-core known-license map — INTENTIONALLY EMPTY.
+#
+# The content lives in the active profile's `known-licenses` data source (e.g.
+# `src/sbom_profile_cann/data/known_licenses.yaml`), merged on top of this by
+# `reconcile._load_known_license_map`. The generic core ships no built-in OSS
+# license map: a profile (or a future non-CANN profile) supplies its own.
+#
+# Format if populated: `component-name: <exact SPDX expression>`, keys lowercased,
+# values valid SPDX (no bare strings, no NOASSERTION).

@@ -1,0 +1,35 @@
+# CANN profile known-license map.
+#
+# The PRIMARY known-license map for CANN runs: the generic core ships an EMPTY
+# `src/sbom/data/known_licenses.yaml`, so these entries are what the license
+# resolver's known-map layer (layer 2) uses. Merged core(empty) + this (profile
+# wins); a future non-CANN profile supplies its own.
+#
+# Format: `component-name: <exact SPDX expression>`, keys lowercased canonical
+# names (+ common spellings/aliases the OSS alias map normalizes). Values are
+# EXACT, valid SPDX expressions (no bare strings, no NOASSERTION) so emitted SBOMs
+# validate by construction; non-SPDX licenses become `LicenseRef-...` at emit.
+#
+# Precedence: curated repo files (Notice/List.yaml) win over this map; this is
+# consulted before the source-cache scan, depsdev cache and network enrichment. A
+# disagreement with a curated file is recorded BOTH ways + flagged, not silently
+# resolved.
+
+eigen: "MPL-2.0 AND BSD-3-Clause"
+googletest: "BSD-3-Clause"
+gtest: "BSD-3-Clause"
+protobuf: "BSD-3-Clause"
+nlohmann-json: "MIT"
+json: "MIT"
+abseil-cpp: "Apache-2.0"
+boost: "BSL-1.0"
+openssl: "Apache-2.0"
+zlib: "Zlib"
+re2: "BSD-3-Clause"
+
+# CANN third-party with no mainstream registry/upstream-map entry, whose license
+# otherwise comes ONLY from the repo's Third_Party Notice. The Notice is an
+# OPTIONAL source that may disappear, so the (stable, verified) license is
+# vendored here as a reliable floor; the Notice merely confirms it when present.
+makeself: "GPL-2.0-only"
+securec: "MulanPSL-2.0"      # openEuler libboundscheck / c_sec

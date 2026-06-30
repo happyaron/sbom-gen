@@ -1,0 +1,11 @@
+# Isolated known-license map for tests of the enricher + known-map layer.
+# The shipped core map is now EMPTY (content lives in profiles), so tests use this
+# fixture instead of relying on bundled content.
+eigen: "MPL-2.0 AND BSD-3-Clause"
+googletest: "BSD-3-Clause"
+gtest: "BSD-3-Clause"
+protobuf: "BSD-3-Clause"
+nlohmann-json: "MIT"
+json: "MIT"
+abseil-cpp: "Apache-2.0"
+boost: "BSL-1.0"

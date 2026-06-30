@@ -1,0 +1,185 @@
+{
+  "entries": {
+    "abseil-cpp": {
+      "copyright": "The Abseil Authors",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch 20250127.0.x",
+      "version": "20250127.0"
+    },
+    "benchmark": {
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch 1.8.x",
+      "version": "1.8"
+    },
+    "c-ares": {
+      "copyright": "Free Software Foundation, Inc.; X Consortium; Daniel Stenberg; the Massachusetts Institute of Technology; Bootstrap Authors",
+      "fetched": "2026-06-29",
+      "license": "NTP",
+      "source": "deps-dir git branch v1.19.1.x",
+      "version": "1.19.1"
+    },
+    "ccache": {
+      "copyright": "Free Software Foundation, Inc.; Andrew Tridgell; Joel Rosdahl and other contributors; Peter Conrad; Jack O'Connor and Samuel Neves; Viktor Kirilov; present, Victor Zverovich; The Regents of the University of California; PostgreSQL Global Development Group; yhirose; Henrik Rydgard; Martin Moene; Christophe Meessen; Theo de Raadt; Todd C. Miller; Python Software Foundation; Yann Collet; https://ccache.dev/license.html",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch 4.8.2.x",
+      "version": "4.8.2"
+    },
+    "eigen": {
+      "copyright": "The Eigen Authors; Intel Corporation; University of Chicago; Free Software Foundation, Inc.; the Free Software Foundation",
+      "fetched": "2026-06-29",
+      "license": "MPL-2.0",
+      "source": "deps-dir git branch 5.0.0.x",
+      "version": "5.0.0"
+    },
+    "fmt": {
+      "copyright": "present, Victor Zverovich and fmt contributors",
+      "fetched": "2026-06-29",
+      "license": "MIT",
+      "source": "deps-dir git branch 12.0.x",
+      "version": "12.0"
+    },
+    "grpc": {
+      "copyright": "The gRPC; gRPC; Google Inc.; the gRPC; WIDE Project; Google LLC; Yibo Cai; Yann Collet",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch v1.70.1.x",
+      "version": "1.70.1"
+    },
+    "gtest-parallel": {
+      "copyright": "Google Inc.",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch 1.0.x",
+      "version": "1.0"
+    },
+    "hiredis": {
+      "copyright": "Michael Grunder; Salvatore Sanfilippo; Pieter Noordhuis; Matt Stancliff , Jan-Erik Rediger; Redis Labs; Oran Agra; Redis Labs, Inc; Marcus Geelnard",
+      "fetched": "2026-06-29",
+      "license": "BSD-3-Clause",
+      "source": "deps-dir git branch 1.3.0.x",
+      "version": "1.3.0"
+    },
+    "json": {
+      "copyright": "Niels Lohmann; Bjorn Hoehrmann; Florian Loitsch",
+      "fetched": "2026-06-29",
+      "license": "MIT",
+      "source": "deps-dir git branch 3.12.0.x",
+      "version": "3.12.0"
+    },
+    "lcov": {
+      "copyright": "Free Software Foundation, Inc.; the Free Software Foundation",
+      "fetched": "2026-06-29",
+      "license": "GPL-2.0-only",
+      "source": "deps-dir git branch v1.16.x",
+      "version": "1.16"
+    },
+    "libboundscheck": {
+      "fetched": "2026-06-29",
+      "license": "MulanPSL-2.0",
+      "source": "deps-dir git branch 1.1.16x",
+      "version": "1.1.16"
+    },
+    "libjpeg-turbo": {
+      "copyright": "Thomas G. Lane; D. R. Commander; Ken Murchison; Google, Inc.; Pierre Ossman for Cendio AB; MIPS Technologies, Inc., California; MIYASAKA Masaru; Thomas G. Lane. Lossless JPEG; Matthieu Darbois; Matthias Rancker; Arm Limited; Felix Hanau; Processors by Agner Fog; Thomas G. Lane, Todd Newman; Alex Richardson; Linaro Limited; Thomas G. Lane, Guido Vollbeding; Siarhei Siamashka; Intel Corporation; MIPS Technologies, Inc.; Nokia Corporation and/or its subsidiary(-ies); Thomas G. Lane, Guido Vollbeding. Lossless JPEG; Viktor Szathmary; Jef Poskanzer; David Koblas",
+      "fetched": "2026-06-29",
+      "license": "BSD-3-Clause",
+      "source": "deps-dir git branch v3.0.1.x",
+      "version": "3.0.1"
+    },
+    "libseccomp": {
+      "copyright": "Red Hat; Free Software Foundation, Inc.; the Free Software Foundation",
+      "fetched": "2026-06-29",
+      "license": "GPL-2.0-only",
+      "source": "deps-dir git branch v2.5.4.x",
+      "version": "2.5.4"
+    },
+    "makeself": {
+      "copyright": "Copyright (c) 1989, 1991 Free Software Foundation, Inc.; copyrighted by the Free Software Foundation",
+      "fetched": "2026-06-29",
+      "license": "GPL-2.0-only",
+      "source": "deps-dir git branch v2.5.0.x",
+      "version": "2.5.0"
+    },
+    "ml_dtypes": {
+      "copyright": "Copyright 2022 The",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch v0.5.0.x",
+      "version": "0.5.0"
+    },
+    "mockcpp": {
+      "copyright": "Darwin Yuan; Free Software Foundation, Inc.",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch v2.7.x",
+      "version": "2.7"
+    },
+    "openssl": {
+      "copyright": "The OpenSSL Project Authors; 20xx-20yy The OpenSSL Project Authors; The OpenSSL Project; Eric A. Young, Tim J. Hudson; Mark Jason Dominus; Free Software Foundation, Inc.; the Free Software Foundation",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch 3.0.9.x",
+      "version": "3.0.9"
+    },
+    "or-tools": {
+      "copyright": "Google LLC",
+      "fetched": "2026-06-29",
+      "license": "Apache-2.0",
+      "source": "deps-dir git branch v9.12.x",
+      "version": "9.12"
+    },
+    "protobuf": {
+      "copyright": "Copyright 2008 Google Inc.; Copyright 2023 Google LLC.; Copyright (c) 2009-2021, Google LLC; Copyright 2013 Google LLC; Copyright 2015 Google Inc.; Copyright 2015, Google Inc. </copyright> Protocol Buffers Binary Serialization Format Google; Copyright 2017 Google Inc.; Copyright 2016 Google Inc.; Copyright 2015, Google Inc. </Copyright> Google Protocol Buffers; Copyright 2018 Google Inc.; Copyright 2022 Google Inc.; Copyright 2023 Google Inc.; Copyright 2014 Google Inc.; Copyright 2013 Google Inc.; Copyright 2011 Google Inc.; Copyright 2008 Google Inc. https://developers.google.com/protocol-buffers; Copyright (c) 2009-2022, Google LLC; Copyright 2019 Google LLC.; copyright 2008, Google LLC; Copyright 2007 Google Inc.; Copyright 2009 Google Inc.; Copyright 2012 Google Inc.; Copyright (c) 2006-2008 Michael Roth <mroth@nessie.de>; Copyright (c) 2004-2010 Michael Roth <mroth@nessie.de>; Copyright (c) 2004, 2006-2010 Michael Roth <mroth@nessie.de>; Copyright (c) 2004-2009 Michael Roth <mroth@nessie.de>; Copyright 2022 Google LLC; Copyright (c) 2019 Yibo Cai; Copyright (c) 2009-2023, Google LLC",
+      "fetched": "2026-06-29",
+      "license": "LicenseRef-scancode-protobuf",
+      "source": "deps-dir git branch v25.1.x",
+      "version": "25.1"
+    },
+    "pybind11": {
+      "copyright": "Wenzel Jakob",
+      "fetched": "2026-06-29",
+      "license": "BSD-3-Clause",
+      "source": "deps-dir git branch v3.0.x",
+      "version": "3.0"
+    },
+    "rdma-core": {
+      "copyright": "Obsidian Research Corporation; Free Software Foundation, Inc.; the Free Software Foundation; Genome Research Ltd Ana Beatriz Guerrero Lopez Jason Gunthorpe Benjamin Drung Talat Batheesh; Obsidian Research Corporation. Mellanox Technologies, Inc; Ed Schouten David Chisnall; Intel Corporation. Mellanox Technologies LTD.; Intel Corporation; Mellanox Technologies Ltd. Infinicon Corporation. Intel Corporation. Topspin Corporation. Voltaire Inc. Lawrence Livermore National Security Oracle and/or its affiliates; Intel Corporation. Topspin Communications. Cisco Systems, Inc. PathScale, Inc. Mellanox Technologies Ltd.; Intel Corporation. Ammasso, Inc. Voltaire Inc.; Broadcom Limited and/or its subsidiaries; Chelsio Communications, Inc.; Amazon.com, Inc.; PathScale, Inc. QLogic Corporation Intel Corporation; Hisilicon Limited; QLogic Corp. PathScale, Inc. Intel Corporation; Topspin Communications. Cisco, Inc. Mellanox Technologies Ltd.; Mellanox Technologies, Inc.; Topspin Communications. Cisco Systems. Mellanox Technologies Ltd.; Emulex; QLogic Corporation; System Fabric Works, Inc. Mellanox Technologies Ltd.; IBM Corporation; VMware, Inc.; Red Hat, Inc.; Topspin Communications. Cisco Systems, Inc. Mellanox Technologies Ltd.; Mellanox Technologies; Topspin Communications; QLogic Corp.; PathScale, Inc.",
+      "fetched": "2026-06-29",
+      "license": "GPL-2.0-only",
+      "source": "deps-dir git branch v42.7.x",
+      "version": "42.7"
+    },
+    "re2": {
+      "copyright": "The RE2 Authors",
+      "fetched": "2026-06-29",
+      "license": "BSD-3-Clause",
+      "source": "deps-dir git branch 2024-02-01-x",
+      "version": "2024"
+    },
+    "symengine": {
+      "copyright": "SymEngine Development Team; Sandia Corporation; Enthought, Inc.; SciPy Developers; Google Inc.; Manuel Krebber; Free Software Foundation, Inc.; Sascha Kratky; Randolph Voorhies, Shane Grant",
+      "fetched": "2026-06-29",
+      "license": "MIT",
+      "source": "deps-dir git branch 0.12.x",
+      "version": "0.12"
+    },
+    "zlib": {
+      "copyright": "Mark Adler; Jean-loup Gailly, Mark Adler; Jean-loup Gailly and Mark Adler; Jean-loup Gailly",
+      "fetched": "2026-06-29",
+      "license": "Zlib",
+      "source": "deps-dir git branch v1.3.x",
+      "version": "1.3"
+    },
+    "zstd": {
+      "copyright": "Facebook Small; Free Software Foundation, Inc.; the Free Software Foundation; Meta Platforms, Inc. and affiliates",
+      "fetched": "2026-06-29",
+      "license": "BSD-3-Clause",
+      "source": "deps-dir git branch 1.5.6.x",
+      "version": "1.5.6"
+    }
+  },
+  "schema": 1
+}

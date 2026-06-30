@@ -1,0 +1,1222 @@
+{
+  "entries": {
+    "pypi:absl-py": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/absl-py",
+      "supplier": "The Abseil Authors",
+      "version": "2.4.0"
+    },
+    "pypi:accelerate": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/accelerate",
+      "supplier": "The HuggingFace team",
+      "version": "0.20.3"
+    },
+    "pypi:asttokens": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/asttokens",
+      "supplier": "Dmitry Sagalovskiy, Grist Labs",
+      "version": "2.0.4"
+    },
+    "pypi:astunparse": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/astunparse",
+      "supplier": "Simon Percivall",
+      "version": "1.6.3"
+    },
+    "pypi:attr": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/attr",
+      "version": "0.3.2"
+    },
+    "pypi:attrdict": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/attrdict",
+      "supplier": "Brendan Curran-Johnson",
+      "version": "2.0.1"
+    },
+    "pypi:attrs": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/attrs",
+      "version": "26.1.0"
+    },
+    "pypi:av": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/av",
+      "supplier": "Mike Boers",
+      "version": "13.0.0"
+    },
+    "pypi:bitsandbytes": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/bitsandbytes",
+      "supplier": "Tim Dettmers",
+      "version": "0.41.3"
+    },
+    "pypi:blake3": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 OR CC0-1.0",
+      "source": "deps.dev/pypi/blake3",
+      "supplier": "Jack O'Connor <oconnor663@gmail.com>",
+      "version": "1.0.9"
+    },
+    "pypi:brotli": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/brotli",
+      "supplier": "The Brotli Authors",
+      "version": "1.1.0"
+    },
+    "pypi:build": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/build",
+      "version": "1.5.0"
+    },
+    "pypi:certifi": {
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0",
+      "source": "deps.dev/pypi/certifi",
+      "supplier": "Kenneth Reitz",
+      "version": "2024.2.2"
+    },
+    "pypi:charset-normalizer": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/charset-normalizer",
+      "supplier": "Ahmed TAHRI",
+      "version": "3.3.2"
+    },
+    "pypi:cloudpickle": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/cloudpickle",
+      "supplier": "The cloudpickle developer team",
+      "version": "3.1.2"
+    },
+    "pypi:cmake": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/cmake",
+      "version": "4.3.4"
+    },
+    "pypi:cmarkgfm": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/cmarkgfm",
+      "version": "2025.10.22"
+    },
+    "pypi:codetiming": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/codetiming",
+      "version": "1.4.0"
+    },
+    "pypi:common": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/common",
+      "supplier": "Marcel Hellkamp",
+      "version": "0.1.2"
+    },
+    "pypi:compressed-tensors": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/compressed-tensors",
+      "supplier": "Neuralmagic, Inc.",
+      "version": "0.9.1"
+    },
+    "pypi:coverage": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/coverage",
+      "supplier": "Ned Batchelder and 257 others",
+      "version": "7.14.3"
+    },
+    "pypi:datasets": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/datasets",
+      "supplier": "HuggingFace Inc.",
+      "version": "2.18.0"
+    },
+    "pypi:ddt": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/ddt",
+      "supplier": "Carles Barrobés",
+      "version": "1.7.2"
+    },
+    "pypi:debugpy": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/debugpy",
+      "supplier": "Microsoft Corporation",
+      "version": "1.8.1"
+    },
+    "pypi:decorator": {
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "deps.dev/pypi/decorator",
+      "version": "5.3.1"
+    },
+    "pypi:deprecated": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/deprecated",
+      "version": "1.3.1"
+    },
+    "pypi:depyf": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/depyf",
+      "supplier": "Kaichao You",
+      "version": "0.18.0"
+    },
+    "pypi:dill": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/dill",
+      "supplier": "Mike McKerns",
+      "version": "0.3.8"
+    },
+    "pypi:easydict": {
+      "fetched": "2026-06-28",
+      "license": "LPGL, see LICENSE file.",
+      "source": "pypi.org/easydict",
+      "supplier": "Mathieu Leplatre",
+      "version": "1.9"
+    },
+    "pypi:einops": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/einops",
+      "supplier": "Alex Rogozhnikov",
+      "version": "0.8.2"
+    },
+    "pypi:en-dtypes": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/en-dtypes",
+      "supplier": "dengguojie",
+      "version": "0.0.4"
+    },
+    "pypi:et-xmlfile": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/et-xmlfile",
+      "supplier": "See ATUHORS.txt",
+      "version": "1.1.0"
+    },
+    "pypi:expecttest": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/expecttest",
+      "supplier": "Edward Z. Yang",
+      "version": "0.3.0"
+    },
+    "pypi:fastapi": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/fastapi",
+      "version": "0.138.1"
+    },
+    "pypi:fastchat": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/fastchat",
+      "version": "0.1.0"
+    },
+    "pypi:filelock": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/filelock",
+      "version": "3.29.4"
+    },
+    "pypi:flash-attn": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/flash-attn",
+      "supplier": "Tri Dao",
+      "version": "2.8.3.post1"
+    },
+    "pypi:fsspec": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/fsspec",
+      "supplier": "Martin Durant",
+      "version": "2024.3.1"
+    },
+    "pypi:ftfy": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/ftfy",
+      "version": "6.3.1"
+    },
+    "pypi:furo": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/furo",
+      "version": "2025.12.19"
+    },
+    "pypi:fuzzywuzzy": {
+      "fetched": "2026-06-28",
+      "license": "GPL-2.0",
+      "source": "deps.dev/pypi/fuzzywuzzy",
+      "supplier": "Adam Cohen",
+      "version": "0.18.0"
+    },
+    "pypi:gevent": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/gevent",
+      "supplier": "Denis Bilenko",
+      "version": "22.10.2"
+    },
+    "pypi:geventhttpclient": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/geventhttpclient",
+      "supplier": "Antonin Amand",
+      "version": "2.0.11"
+    },
+    "pypi:gguf": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/gguf",
+      "supplier": "GGML",
+      "version": "0.10.0"
+    },
+    "pypi:gradio": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/gradio",
+      "version": "6.19.0"
+    },
+    "pypi:greenlet": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/greenlet",
+      "supplier": "Alexey Borzenkov",
+      "version": "3.0.3"
+    },
+    "pypi:huggingface-hub": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/huggingface-hub",
+      "supplier": "Hugging Face, Inc.",
+      "version": "0.17.3"
+    },
+    "pypi:hydra-core": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/hydra-core",
+      "version": "1.4.0.dev5"
+    },
+    "pypi:hypothesis": {
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0",
+      "source": "deps.dev/pypi/hypothesis",
+      "version": "6.155.7"
+    },
+    "pypi:icecream": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/icecream",
+      "supplier": "Ansgar Grunseid",
+      "version": "2.1.3"
+    },
+    "pypi:idna": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/idna",
+      "version": "3.6"
+    },
+    "pypi:imagesize": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/imagesize",
+      "supplier": "Yoshiki Shibukawa",
+      "version": "2.0.0"
+    },
+    "pypi:importlib-metadata": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/importlib-metadata",
+      "version": "9.0.0"
+    },
+    "pypi:ipaddress": {
+      "fetched": "2026-06-28",
+      "license": "PSF-2.0",
+      "source": "pypi.org/ipaddress",
+      "supplier": "Philipp Hagemeister",
+      "version": "1.0.23"
+    },
+    "pypi:jieba": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/jieba",
+      "supplier": "Sun, Junyi",
+      "version": "0.42.1"
+    },
+    "pypi:jinja2": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/jinja2",
+      "version": "3.1.6"
+    },
+    "pypi:jsonlines": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/jsonlines",
+      "supplier": "wouter bolsterlee",
+      "version": "4.0.0"
+    },
+    "pypi:lark": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/lark",
+      "version": "1.2.2"
+    },
+    "pypi:latex2sympy2": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/latex2sympy2",
+      "supplier": "OrangeX4",
+      "version": "1.9.1"
+    },
+    "pypi:libclang": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/libclang",
+      "supplier": "Tao He",
+      "version": "18.1.1"
+    },
+    "pypi:librosa": {
+      "fetched": "2026-06-28",
+      "license": "ISC",
+      "source": "deps.dev/pypi/librosa",
+      "supplier": "Brian McFee, librosa development team",
+      "version": "0.10.2.post1"
+    },
+    "pypi:lm-format-enforcer": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/lm-format-enforcer",
+      "supplier": "Noam Gat",
+      "version": "0.11.3"
+    },
+    "pypi:loguru": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/loguru",
+      "supplier": "Delgan",
+      "version": "0.7.2"
+    },
+    "pypi:make": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/make",
+      "supplier": "Frode Holmer",
+      "version": "0.1.6.post2"
+    },
+    "pypi:markupsafe": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/markupsafe",
+      "supplier": "Pallets",
+      "version": "2.1.5"
+    },
+    "pypi:matplotlib": {
+      "fetched": "2026-06-28",
+      "license": "PSF-2.0",
+      "source": "pypi.org/matplotlib",
+      "supplier": "John D. Hunter, Michael Droettboom",
+      "version": "3.11.0"
+    },
+    "pypi:mindpet": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/mindpet",
+      "version": "1.0.4"
+    },
+    "pypi:mistral-common": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/mistral-common",
+      "version": "1.11.5"
+    },
+    "pypi:mkdocs": {
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "deps.dev/pypi/mkdocs",
+      "version": "1.6.1"
+    },
+    "pypi:mkdocs-gen-files": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/mkdocs-gen-files",
+      "version": "0.6.1"
+    },
+    "pypi:ml-dtypes": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/ml-dtypes",
+      "version": "0.5.4"
+    },
+    "pypi:mpmath": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/mpmath",
+      "supplier": "Fredrik Johansson",
+      "version": "1.3.0"
+    },
+    "pypi:msgspec": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/msgspec",
+      "version": "0.21.1"
+    },
+    "pypi:mteb": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/mteb",
+      "supplier": "MTEB Contributors (https://github.com/embeddings-benchmark/mteb/graphs/contributors)",
+      "version": "1.1.1"
+    },
+    "pypi:multiprocess": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/multiprocess",
+      "supplier": "Mike McKerns",
+      "version": "0.70.15"
+    },
+    "pypi:myst-parser": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/myst-parser",
+      "version": "5.1.0"
+    },
+    "pypi:networkx": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/networkx",
+      "version": "3.2.1"
+    },
+    "pypi:ninja": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND BSD-3-Clause",
+      "source": "pypi.org/ninja",
+      "version": "1.13.0"
+    },
+    "pypi:nltk": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/nltk",
+      "supplier": "NLTK Team",
+      "version": "3.9.4"
+    },
+    "pypi:numba": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/numba",
+      "version": "0.60.0"
+    },
+    "pypi:numpy": {
+      "fetched": "2026-06-28",
+      "license": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib",
+      "source": "deps.dev/pypi/numpy",
+      "supplier": "Travis E. Oliphant et al.",
+      "version": "2.5.0"
+    },
+    "pypi:omegaconf": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/omegaconf",
+      "supplier": "Omry Yadan",
+      "version": "2.4.0.dev12"
+    },
+    "pypi:onnx": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/onnx",
+      "version": "1.16.0"
+    },
+    "pypi:onnxruntime": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/onnxruntime",
+      "supplier": "Microsoft Corporation",
+      "version": "1.6.0"
+    },
+    "pypi:open-clip-torch": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/open-clip-torch",
+      "supplier": "Gabriel Ilharco, Mitchell Wortsman, Romain Beaumont",
+      "version": "2.26.1"
+    },
+    "pypi:openai": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/openai",
+      "version": "2.44.0"
+    },
+    "pypi:opencv-python": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/opencv-python",
+      "supplier": "Olli-Pekka Heinisuo",
+      "version": "4.1.2.30"
+    },
+    "pypi:opencv-python-headless": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/opencv-python-headless",
+      "supplier": "OpenCV Team",
+      "version": "4.13.0.92"
+    },
+    "pypi:openpyxl": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/openpyxl",
+      "supplier": "See AUTHORS",
+      "version": "3.1.2"
+    },
+    "pypi:optimum": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/optimum",
+      "supplier": "HuggingFace Inc. Special Ops Team",
+      "version": "2.2.0"
+    },
+    "pypi:outlines": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/outlines",
+      "supplier": "Outlines Developers",
+      "version": "0.1.11"
+    },
+    "pypi:packaging": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "source": "deps.dev/pypi/packaging",
+      "version": "26.2.0"
+    },
+    "pypi:panda": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/panda",
+      "supplier": "pandastream.com",
+      "version": "0.3.1"
+    },
+    "pypi:pandas": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/pandas",
+      "version": "3.0.3"
+    },
+    "pypi:partial-json-parser": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/partial-json-parser",
+      "version": "0.2.1.1.post7"
+    },
+    "pypi:pebble": {
+      "fetched": "2026-06-28",
+      "license": "GNU Library or Lesser General Public License (LGPL)",
+      "source": "pypi.org/pebble",
+      "supplier": "Matteo Cafasso",
+      "version": "5.2.0"
+    },
+    "pypi:peft": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/peft",
+      "supplier": "The HuggingFace team",
+      "version": "0.7.1"
+    },
+    "pypi:pillow": {
+      "fetched": "2026-06-28",
+      "license": "MIT-CMU",
+      "source": "deps.dev/pypi/pillow",
+      "version": "12.2.0"
+    },
+    "pypi:pip": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pip",
+      "version": "26.1.2"
+    },
+    "pypi:plotly": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/plotly",
+      "version": "6.8.0"
+    },
+    "pypi:posix-ipc": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/posix-ipc",
+      "version": "1.2.0"
+    },
+    "pypi:pre-commit": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pre-commit",
+      "supplier": "Anthony Sottile",
+      "version": "4.6.0"
+    },
+    "pypi:prometheus-client": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND BSD-2-Clause",
+      "source": "deps.dev/pypi/prometheus-client",
+      "version": "0.25.0"
+    },
+    "pypi:prometheus-fastapi-instrumentator": {
+      "fetched": "2026-06-28",
+      "license": "ISC",
+      "source": "deps.dev/pypi/prometheus-fastapi-instrumentator",
+      "supplier": "Tim Schwenke",
+      "version": "8.0.2"
+    },
+    "pypi:protobuf": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/protobuf",
+      "supplier": "protobuf@googlegroups.com",
+      "version": "3.20.3"
+    },
+    "pypi:psutil": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/psutil",
+      "supplier": "Giampaolo Rodola",
+      "version": "7.2.2"
+    },
+    "pypi:psutils": {
+      "fetched": "2026-06-28",
+      "license": "GPL-3.0-or-later",
+      "source": "deps.dev/pypi/psutils",
+      "version": "3.3.11"
+    },
+    "pypi:pyarrow": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/pyarrow",
+      "version": "19.0.0"
+    },
+    "pypi:pybind11": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/pybind11",
+      "supplier": "Wenzel Jakob",
+      "version": "2.10.3"
+    },
+    "pypi:pycocotools": {
+      "fetched": "2026-06-28",
+      "license": "FreeBSD",
+      "source": "pypi.org/pycocotools",
+      "version": "2.0.11"
+    },
+    "pypi:pydantic": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pydantic",
+      "version": "2.13.4"
+    },
+    "pypi:pygments": {
+      "fetched": "2026-06-28",
+      "license": "BSD-2-Clause",
+      "source": "deps.dev/pypi/pygments",
+      "supplier": "Matthäus G. Chajdas",
+      "version": "2.20.0"
+    },
+    "pypi:pymdown-extensions": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pymdown-extensions",
+      "version": "11.0.0"
+    },
+    "pypi:pytest": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pytest",
+      "supplier": "Brianna Laugher, Bruno Oliveira, Floris Bruynooghe, Freya Bruhin, Holger Krekel, Others (See AUTHORS), Ronny Pfannschmidt",
+      "version": "9.1.1"
+    },
+    "pypi:pytest-cov": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pytest-cov",
+      "version": "7.1.0"
+    },
+    "pypi:pytest-forked": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pytest-forked",
+      "supplier": "pytest-dev",
+      "version": "1.6.0"
+    },
+    "pypi:pytest-html": {
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0",
+      "source": "deps.dev/pypi/pytest-html",
+      "version": "4.2.0"
+    },
+    "pypi:pytest-mock": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pytest-mock",
+      "version": "3.15.1"
+    },
+    "pypi:pytest-rerunfailures": {
+      "fetched": "2026-06-28",
+      "license": "MPL-2.0",
+      "source": "deps.dev/pypi/pytest-rerunfailures",
+      "version": "16.3.0"
+    },
+    "pypi:pytest-xdist": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pytest-xdist",
+      "version": "3.8.0"
+    },
+    "pypi:python-dateutil": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND BSD-3-Clause",
+      "source": "pypi.org/python-dateutil",
+      "supplier": "Gustavo Niemeyer",
+      "version": "2.9.0.post0"
+    },
+    "pypi:python-levenshtein": {
+      "fetched": "2026-06-28",
+      "license": "GPL-2.0-or-later",
+      "source": "deps.dev/pypi/python-levenshtein",
+      "version": "0.27.3"
+    },
+    "pypi:python-rapidjson": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/python-rapidjson",
+      "supplier": "Ken Robbins",
+      "version": "1.16"
+    },
+    "pypi:pytorchvideo": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/pytorchvideo",
+      "supplier": "Facebook AI",
+      "version": "0.1.5"
+    },
+    "pypi:pytz": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/pytz",
+      "supplier": "Stuart Bishop",
+      "version": "2024.1"
+    },
+    "pypi:pyyaml": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/pyyaml",
+      "supplier": "Kirill Simonov",
+      "version": "6.0.3"
+    },
+    "pypi:pyzmq": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/pyzmq",
+      "supplier": "Brian E. Granger, Min Ragan-Kelley",
+      "version": "27.1.0"
+    },
+    "pypi:rapidfuzz": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/rapidfuzz",
+      "supplier": "Max Bachmann",
+      "version": "3.7.0"
+    },
+    "pypi:ray": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/ray",
+      "supplier": "Ray Team",
+      "version": "2.42.1"
+    },
+    "pypi:regex": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "source": "deps.dev/pypi/regex",
+      "version": "2026.5.9"
+    },
+    "pypi:requests": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/requests",
+      "supplier": "Kenneth Reitz",
+      "version": "2.31.0"
+    },
+    "pypi:rouge": {
+      "fetched": "2026-06-28",
+      "license": "LICENCE.txt",
+      "source": "pypi.org/rouge",
+      "supplier": "pltrdy",
+      "version": "1.0.1"
+    },
+    "pypi:rouge-chinese": {
+      "fetched": "2026-06-28",
+      "license": "LICENCE.txt",
+      "source": "pypi.org/rouge-chinese",
+      "version": "1.0.3"
+    },
+    "pypi:rouge-score": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/rouge-score",
+      "supplier": "Google LLC",
+      "version": "0.1.2"
+    },
+    "pypi:ruamel-yaml": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/ruamel-yaml",
+      "supplier": "Anthon van der Neut",
+      "version": "0.19.1"
+    },
+    "pypi:sacrebleu": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/sacrebleu",
+      "version": "2.6.0"
+    },
+    "pypi:safetensors": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/safetensors",
+      "version": "0.8.0"
+    },
+    "pypi:scikit-learn": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/scikit-learn",
+      "version": "1.9.0"
+    },
+    "pypi:scipy": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/scipy",
+      "version": "1.13.1"
+    },
+    "pypi:seaborn": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/seaborn",
+      "version": "0.13.2"
+    },
+    "pypi:sentencepiece": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/sentencepiece",
+      "supplier": "Taku Kudo",
+      "version": "0.1.92"
+    },
+    "pypi:setproctitle": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/setproctitle",
+      "supplier": "Daniele Varrazzo",
+      "version": "1.3.7"
+    },
+    "pypi:setuptools": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/setuptools",
+      "version": "82.0.1"
+    },
+    "pypi:setuptools-scm": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/setuptools-scm",
+      "version": "10.2.0"
+    },
+    "pypi:six": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/six",
+      "supplier": "Benjamin Peterson",
+      "version": "1.16.0"
+    },
+    "pypi:soundfile": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/soundfile",
+      "supplier": "Bastian Bechtold",
+      "version": "0.14.0"
+    },
+    "pypi:sphinx": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/sphinx",
+      "version": "5.2.3"
+    },
+    "pypi:sphinx-reredirects": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/sphinx-reredirects",
+      "supplier": "Matt from Documatt",
+      "version": "0.1.2"
+    },
+    "pypi:sphinx-tabs": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/sphinx-tabs",
+      "supplier": "djungelorm",
+      "version": "3.4.1"
+    },
+    "pypi:sphinx-toolbox": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/sphinx-toolbox",
+      "version": "3.4.0"
+    },
+    "pypi:sphinxcontrib-httpdomain": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/sphinxcontrib-httpdomain",
+      "version": "1.8.1"
+    },
+    "pypi:sphinxcontrib-napoleon": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/sphinxcontrib-napoleon",
+      "supplier": "Rob Ruana",
+      "version": "0.7"
+    },
+    "pypi:sympy": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/sympy",
+      "supplier": "SymPy development team",
+      "version": "1.14.0"
+    },
+    "pypi:tables": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/tables",
+      "supplier": "Francesc Alted, Ivan Vilata, Antonio Valentino, Anthony Scopatz, et al.",
+      "version": "3.11.1"
+    },
+    "pypi:tabulate": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/tabulate",
+      "version": "0.10.0"
+    },
+    "pypi:tensorboardx": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/tensorboardx",
+      "version": "2.6.5"
+    },
+    "pypi:tensordict": {
+      "fetched": "2026-06-28",
+      "license": "BSD",
+      "source": "pypi.org/tensordict",
+      "version": "0.13.0"
+    },
+    "pypi:tensorflow": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/tensorflow",
+      "supplier": "Google Inc.",
+      "version": "2.19.1"
+    },
+    "pypi:tensorflow-cpu": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/tensorflow-cpu",
+      "supplier": "Google Inc.",
+      "version": "2.19.1"
+    },
+    "pypi:termcolor": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/termcolor",
+      "supplier": "Hugo van Kemenade",
+      "version": "3.3.0"
+    },
+    "pypi:thefuzz": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/thefuzz",
+      "supplier": "Adam Cohen",
+      "version": "0.22.1"
+    },
+    "pypi:timeout-decorator": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/timeout-decorator",
+      "supplier": "Patrick Ng",
+      "version": "0.5.0"
+    },
+    "pypi:timm": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/timm",
+      "version": "0.9.16"
+    },
+    "pypi:tokenizers": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/tokenizers",
+      "supplier": "Anthony MOI <m.anthony.moi@gmail.com>",
+      "version": "0.21.0"
+    },
+    "pypi:toolz": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/toolz",
+      "supplier": "PyToolz Contributors",
+      "version": "1.1.0"
+    },
+    "pypi:torch": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/torch",
+      "version": "2.12.1"
+    },
+    "pypi:torch-npu": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/torch-npu",
+      "version": "2.10.0"
+    },
+    "pypi:torchaudio": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "pypi.org/torchaudio",
+      "supplier": "Soumith Chintala, David Pollack, Sean Naren, Peter Goldsborough, Moto Hira, Caroline Chen, Jeff Hwang, Zhaoheng Ni, Xiaohui Zhang",
+      "version": "2.9.0"
+    },
+    "pypi:torchvision": {
+      "fetched": "2026-06-28",
+      "license": "BSD",
+      "source": "pypi.org/torchvision",
+      "supplier": "PyTorch Core Team",
+      "version": "0.16.0"
+    },
+    "pypi:tornado": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/tornado",
+      "supplier": "Facebook",
+      "version": "6.5.7"
+    },
+    "pypi:tqdm": {
+      "fetched": "2026-06-28",
+      "license": "MIT AND MPL-2.0",
+      "source": "deps.dev/pypi/tqdm",
+      "version": "4.68.3"
+    },
+    "pypi:transformers": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/transformers",
+      "version": "4.30.2"
+    },
+    "pypi:transformers-stream-generator": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/transformers-stream-generator",
+      "supplier": "LowinLi",
+      "version": "0.0.5"
+    },
+    "pypi:trl": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/trl",
+      "supplier": "Leandro von Werra",
+      "version": "0.7.10"
+    },
+    "pypi:typing-extensions": {
+      "fetched": "2026-06-28",
+      "license": "PSF-2.0",
+      "source": "pypi.org/typing-extensions",
+      "version": "4.10.0"
+    },
+    "pypi:tzdata": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "pypi.org/tzdata",
+      "version": "2024.1"
+    },
+    "pypi:urllib3": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/urllib3",
+      "version": "2.2.1"
+    },
+    "pypi:uvicorn": {
+      "fetched": "2026-06-28",
+      "license": "BSD-3-Clause",
+      "source": "deps.dev/pypi/uvicorn",
+      "version": "0.49.0"
+    },
+    "pypi:wandb": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/wandb",
+      "version": "0.16.3"
+    },
+    "pypi:wheel": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "deps.dev/pypi/wheel",
+      "version": "0.47.0"
+    },
+    "pypi:word2number": {
+      "fetched": "2026-06-28",
+      "license": "MIT",
+      "source": "pypi.org/word2number",
+      "supplier": "Akshay Nagpal",
+      "version": "1.1.0"
+    },
+    "pypi:xgboost": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/xgboost",
+      "version": "3.3.0"
+    },
+    "pypi:xgrammar": {
+      "fetched": "2026-06-28",
+      "license": "Apache-2.0",
+      "source": "deps.dev/pypi/xgrammar",
+      "supplier": "MLC Team",
+      "version": "0.1.11"
+    },
+    "pypi:zope-event": {
+      "fetched": "2026-06-28",
+      "license": "Zope Public License",
+      "source": "pypi.org/zope-event",
+      "supplier": "Zope Foundation and Contributors",
+      "version": "5.0"
+    },
+    "pypi:zope-interface": {
+      "fetched": "2026-06-28",
+      "license": "Zope Public License",
+      "source": "pypi.org/zope-interface",
+      "supplier": "Zope Foundation and Contributors",
+      "version": "6.3"
+    }
+  },
+  "schema": 1
+}

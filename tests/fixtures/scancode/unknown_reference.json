@@ -1,0 +1,38 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "32.5.0",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "license_detections": [],
+  "files": [
+    {
+      "path": "LICENSE",
+      "type": "file",
+      "detected_license_expression": "unknown-license-reference",
+      "detected_license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+      "license_detections": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "identifier": "unknown_license_reference-6300642c-cebd-46a6-1921-afd13c180588",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "spdx_license_expression": null,
+              "score": 100.0,
+              "rule_identifier": "license-intro_21.RULE",
+              "rule_url": null
+            }
+          ]
+        }
+      ],
+      "copyrights": [],
+      "holders": [],
+      "scan_errors": []
+    }
+  ]
+}
