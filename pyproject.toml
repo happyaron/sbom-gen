@@ -27,6 +27,7 @@ sbom = "sbom.cli:main"
 
 [project.entry-points."sbom.profiles"]
 cann = "sbom_profile_cann:CannProfile"
+hispark = "sbom_profile_hispark:HisparkProfile"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -37,3 +38,4 @@ where = ["src"]
 [tool.setuptools.package-data]
 sbom = ["data/*.yaml", "data/*.json"]
 sbom_profile_cann = ["data/*.yaml", "data/*.json"]
+sbom_profile_hispark = ["data/*.yaml", "data/*.json"]

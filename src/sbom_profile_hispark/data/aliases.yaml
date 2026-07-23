@@ -1,0 +1,31 @@
+# HiSpark canonical-name alias map: raw CMake link token -> {canonical, relation}.
+#
+# The CMSIS-DSP library builds as a set of per-domain static libraries
+# (CMSISDSPBasicMath, CMSISDSPFiltering, ...). Each name appears as a raw
+# target_link_libraries() token that resolves to no discovered component, so
+# without these entries reconcile raises one `unmapped_link_library` warning per
+# token. They all belong to the single `cmsis-dsp` component (the vendored
+# CMSIS-DSP source tree), so they collapse onto it here.
+
+CMSISDSPBasicMath:     {canonical: cmsis-dsp, relation: link}
+CMSISDSPComplexMath:   {canonical: cmsis-dsp, relation: link}
+CMSISDSPQuaternionMath: {canonical: cmsis-dsp, relation: link}
+CMSISDSPController:     {canonical: cmsis-dsp, relation: link}
+CMSISDSPFastMath:       {canonical: cmsis-dsp, relation: link}
+CMSISDSPFiltering:      {canonical: cmsis-dsp, relation: link}
+CMSISDSPMatrix:         {canonical: cmsis-dsp, relation: link}
+CMSISDSPStatistics:     {canonical: cmsis-dsp, relation: link}
+CMSISDSPSupport:        {canonical: cmsis-dsp, relation: link}
+CMSISDSPTransform:      {canonical: cmsis-dsp, relation: link}
+CMSISDSPCommon:         {canonical: cmsis-dsp, relation: link}
+CMSISDSPSVM:            {canonical: cmsis-dsp, relation: link}
+CMSISDSPBayes:          {canonical: cmsis-dsp, relation: link}
+CMSISDSPDistance:       {canonical: cmsis-dsp, relation: link}
+CMSISDSPInterpolation:  {canonical: cmsis-dsp, relation: link}
+CMSISDSP:               {canonical: cmsis-dsp, relation: link}
+
+# libboundscheck (Huawei's bounds-checking securec functions) links under several
+# raw target spellings; collapse them onto the vendored `libboundscheck` tree.
+bounds_checking_function: {canonical: libboundscheck, relation: link}
+boundscheck:              {canonical: libboundscheck, relation: link}
+securec:                  {canonical: libboundscheck, relation: link}

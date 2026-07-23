@@ -1,0 +1,73 @@
+# Curated upstream licenses for well-known third-party components vendored by
+# HiSpark repos that ship NO embedded LICENSE file in the checked-in tree.
+#
+# PROVENANCE: every entry is an INDEPENDENT upstream fact about the named OSS
+# project (its canonical upstream license), NOT read from the repo's
+# LICENSE.OpenSource / COPYRIGHT.OpenSource manifests. Those manifests are used
+# only to CROSS-CHECK these values (HisparkProfile.crosscheck_manifest), never to
+# derive them. A component whose own tree carries a LICENSE file is resolved from
+# that real file first (higher precedence) and never reaches this map.
+#
+# Keys are the canonical (lowercased) component directory names. Values are SPDX
+# license expressions (Public Domain has no SPDX id -> a LicenseRef). Only
+# high-confidence, version-stable identities are listed; version-sensitive or
+# uncertain projects (e.g. openssl, tinyh264, zeroclaw) are deliberately OMITTED
+# so they stay NOASSERTION rather than being mislabeled.
+
+# --- ARM / CMSIS ---
+cmsis-dsp: Apache-2.0
+cmsis_6: Apache-2.0
+
+# --- compression / archive ---
+lz4: BSD-2-Clause
+7-zip-lzma-sdk: LicenseRef-Public-Domain
+gzip: GPL-3.0-or-later
+
+# --- crypto / TLS ---
+mbedtls: Apache-2.0
+libboundscheck: MulanPSL-2.0
+t_cose: BSD-3-Clause
+
+# --- C runtime / utility ---
+musl: MIT
+cjson: MIT
+stb: MIT
+
+# --- filesystems ---
+fatfs: BSD-1-Clause
+littlefs: BSD-3-Clause
+
+# --- media / codecs ---
+libogg: BSD-3-Clause
+openh264: BSD-2-Clause
+libsrtp: BSD-3-Clause
+
+# --- graphics / UI ---
+sdl: Zlib
+lvgl: MIT
+drm: MIT
+
+# --- networking ---
+lwip: BSD-3-Clause
+libcoap: BSD-2-Clause
+mqtt: EPL-2.0
+curl: curl
+wpa_supplicant: BSD-3-Clause
+libnl: LGPL-2.1-only
+dropbear: MIT
+
+# --- RTOS / kernels ---
+incubator-nuttx: Apache-2.0
+freebsd: BSD-2-Clause
+busybox: GPL-2.0-only
+u-boot: GPL-2.0-or-later
+linux: GPL-2.0-only
+
+# --- language runtimes / scripting ---
+micropython: MIT
+jerryscript: Apache-2.0
+
+# --- misc utility ---
+zlib: Zlib
+unity: MIT
+qrcodegen: MIT
