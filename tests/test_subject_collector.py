@@ -47,6 +47,49 @@ def _write(p: Path, text: str) -> None:
     p.write_text(text, encoding="utf-8")
 
 
+# ---------------------------------------------------------------------------
+# project() name resolution / build-variable sanitization
+# ---------------------------------------------------------------------------
+
+
+def test_resolve_project_name_never_emits_unexpanded_var(tmp_path):
+    cmake = tmp_path / "CMakeLists.txt"
+
+    # Plain literal names pass through untouched.
+    _write(cmake, "project(ops_math)")
+    assert subject_mod._resolve_project_name("ops_math", cmake) == "ops_math"
+
+    # A fully-variable name defined by set() in the same file resolves (CANN style).
+    _write(cmake, "set(PKG_NAME math)\nproject(${PKG_NAME})")
+    assert subject_mod._resolve_project_name("${PKG_NAME}", cmake) == "math"
+
+    # An unresolvable ${VAR} with a literal suffix drops the var, keeps the literal
+    # (hs-fbb's project(${CHIP}_CFBB) where CHIP is a required build-time arg).
+    _write(cmake, "if(NOT DEFINED CHIP)\nendif()\nproject(${CHIP}_CFBB C ASM)")
+    assert subject_mod._resolve_project_name("${CHIP}_CFBB", cmake) == "CFBB"
+
+    # A name that is ONLY an unresolvable var yields None -> caller uses basename.
+    assert subject_mod._resolve_project_name("${NOPE}", cmake) is None
+
+
+def test_resolve_project_version_sanitizes_unexpanded_var(tmp_path):
+    cmake = tmp_path / "CMakeLists.txt"
+
+    # Literal versions and None pass through.
+    _write(cmake, "project(x VERSION 1.0.0)")
+    assert subject_mod._resolve_project_version("1.0.0", cmake) == "1.0.0"
+    assert subject_mod._resolve_project_version(None, cmake) is None
+
+    # ${PROJECT_VERSION} resolves from a same-file set() (ops-fft/ops-tensor).
+    _write(cmake, 'set(PROJECT_VERSION "1.0.0")\nproject(x VERSION ${PROJECT_VERSION})')
+    assert subject_mod._resolve_project_version("${PROJECT_VERSION}", cmake) == "1.0.0"
+
+    # An unresolvable version var is DROPPED (None) -> no @version in the purl,
+    # never emitted raw as @%24%7B...%7D.
+    _write(cmake, "project(x VERSION ${PROJECT_VERSION})")
+    assert subject_mod._resolve_project_version("${PROJECT_VERSION}", cmake) is None
+
+
 def _make_repo(tmp_path: Path) -> Path:
     """A miniature ops-math-shaped tree."""
     _write(

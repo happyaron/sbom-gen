@@ -42,6 +42,26 @@ from .py_metadata import resolve_package_metadata
 # ---------------------------------------------------------------------------
 
 _VAR_REF_RE = re.compile(r"\$\{([A-Za-z0-9_]+)\}")
+#: Any unexpanded build-variable / generator-expression token (``${...}``,
+#: ``$<...>``, ``$(...)``, ``$ENV{...}``) — one must never survive into an
+#: emitted subject name.
+_ANY_VAR_RE = re.compile(r"\$ENV\{[^}]*\}|\$\{[^}]*\}|\$<[^>]*>|\$\([^)]*\)")
+
+
+def _has_build_var(value: str) -> bool:
+    """True when ``value`` carries an unexpanded CMake build-variable marker."""
+    return "${" in value or "$<" in value or "$(" in value
+
+
+def _lookup_set_var(var: str, text: str) -> str | None:
+    """The value of a ``set(<var> <value>)`` in ``text``, or ``None`` if absent.
+
+    Shared by the project() name and version resolvers (CANN roots define both
+    via a ``set(...)`` just above ``project()``)."""
+    sm = re.search(
+        rf"""set\(\s*{re.escape(var)}\s+["']?([A-Za-z0-9_\-./]+)["']?\s*\)""", text
+    )
+    return sm.group(1) if sm else None
 
 #: Roles that are kept as ownership-only grouping, not shipped artifacts.
 _NON_EMIT_ROLES = {
@@ -471,7 +491,7 @@ def _primary_subject(repo_root: Path) -> Subject | None:
         return None
     cf = parse.parse_file(top)
     cmake_name = _resolve_project_name(cf.project_name, top)
-    cmake_version = cf.project_version
+    cmake_version = _resolve_project_version(cf.project_version, top)
 
     pkg_name, pkg_version = _read_version_cmake(repo_root / "version.cmake")
 
@@ -521,7 +541,7 @@ def _cmake_root_subject(root_dir: Path, repo_root: Path) -> Subject:
         identity=Identity(
             kind=SubjectKind.CMAKE_PROJECT,
             name=name,
-            version=cf.project_version,
+            version=_resolve_project_version(cf.project_version, cmake),
         ),
         role=SubjectRole.CMAKE_PROJECT,
         source_path=rel,
@@ -582,23 +602,63 @@ def _has_pep621_project(pkg_dir: Path) -> bool:
 
 
 def _resolve_project_name(name: str | None, cmake_file: Path) -> str | None:
-    """Resolve a ``project(${VAR})`` name against a ``set(VAR value)`` in the
-    same file (the parser keeps ``${VAR}`` raw; CANN roots define the name via
-    ``set(PKG_NAME ...)`` just above ``project()``)."""
+    """Resolve a ``project(<name>)`` that references CMake build variables.
+
+    A name with no ``${...}`` is returned unchanged. Otherwise each ``${VAR}`` is
+    substituted from a ``set(VAR value)`` in the same file (CANN roots define the
+    name via ``set(PKG_NAME ...)`` just above ``project()``). A ``${VAR}`` with no
+    resolvable ``set()`` — e.g. hs-fbb's ``project(${CHIP}_CFBB)``, where ``CHIP``
+    is a REQUIRED build-time argument (``if(NOT DEFINED CHIP) message(FATAL_ERROR)``)
+    and thus unknowable statically — is DROPPED and the literal remainder kept
+    (``${CHIP}_CFBB`` → ``CFBB``). An unexpanded ``${...}`` is never emitted as a
+    name; when nothing literal remains, ``None`` is returned so the caller falls
+    back to the directory basename.
+    """
     if not name:
         return name
-    m = _VAR_REF_RE.fullmatch(name.strip())
-    if not m:
-        return name
-    var = m.group(1)
+    stripped = name.strip()
+    if not _has_build_var(stripped):
+        return stripped
+
     try:
         text = cmake_file.read_text(encoding="utf-8", errors="replace")
     except OSError:
-        return name
-    sm = re.search(
-        rf"""set\(\s*{re.escape(var)}\s+["']?([A-Za-z0-9_\-./]+)["']?\s*\)""", text
+        text = ""
+
+    resolved = _VAR_REF_RE.sub(lambda m: _lookup_set_var(m.group(1), text) or "", stripped)
+    # Drop any residual token _VAR_REF_RE did not cover (generator exprs, $(),
+    # $ENV{}, ${A-B} with punctuation), then tidy separators a dropped token left.
+    resolved = _ANY_VAR_RE.sub("", resolved).strip("_-. ")
+    while "__" in resolved:
+        resolved = resolved.replace("__", "_")
+    return resolved or None
+
+
+def _resolve_project_version(version: str | None, cmake_file: Path) -> str | None:
+    """Resolve / sanitize a ``project(... VERSION <v>)`` that references variables.
+
+    A literal version passes through unchanged. A ``${VAR}`` is substituted from a
+    same-file ``set()``; when it stays unresolved — e.g. ops-fft's
+    ``project(${OPS_FFT} VERSION ${PROJECT_VERSION} ...)``, where
+    ``PROJECT_VERSION`` is a build-time value not defined in the file — the version
+    is DROPPED (``None``) rather than emitted raw, so the subject purl carries no
+    ``@version`` instead of ``@%24%7BPROJECT_VERSION%7D``. Mirrors the
+    component-version sanitizer in :func:`sbom.reconcile._sanitize_unresolved_versions`.
+    """
+    if not version or not _has_build_var(version):
+        return version
+    try:
+        text = cmake_file.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        text = ""
+    # Substitute resolvable ${VAR}s; leave an unresolved one in place so the guard
+    # below detects it and drops the whole version (never assert a partial version).
+    resolved = _VAR_REF_RE.sub(
+        lambda m: _lookup_set_var(m.group(1), text) or m.group(0), version
     )
-    return sm.group(1) if sm else name
+    if _has_build_var(resolved):
+        return None
+    return resolved.strip() or None
 
 
 def _read_version_cmake(path: Path) -> tuple[str | None, str | None]:
